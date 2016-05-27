@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 /*reset*/
 body,div,ul,ol,li,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,th,td {margin:0; padding:0;}
@@ -29,137 +29,16 @@ a:hover{color:#0992cb;text-decoration:underline;}
 /* 框架 */
 /*头图可根据实际情况自定义分块*/
 .cont_h_1,.cont_h_2,.cont_h_3,.cont_1,.cont_2,.cont_3,.cont_4,.cont_5,.cont_6 {position:relative; width:1200px; margin:0 auto;}
-.main_h_1,.cont_h_1 {height:282px; background:url(../images/header_1.jpg) no-repeat center top;}
-.main_h_2,.cont_h_2 {height:315px; background:url(../images/header_2.jpg) no-repeat center top;}
-.main_h_3,.cont_h_3 {height:315px; background:url(../images/header_2.jpg) no-repeat center top;}
-.main_1,.cont_1 {height:180px; background:url(../images/main_1.jpg) no-repeat center top;}
-.main_2,.cont_2 {height:680px; background:url(../images/main_2.jpg) no-repeat center top;}
-.main_3,.cont_3 {height:180px; background:url(../images/main_3.jpg) no-repeat center top;}
-.main_4,.cont_4 {height:180px; background:url(../images/main_4.jpg) no-repeat center top;}
-.main_5,.cont_5 {height:180px; background:url(../images/main_5.jpg) no-repeat center top;}
-.main_6,.cont_6 {height:180px; background:url(../images/main_6.jpg) no-repeat center top;}
+.main_h_1,.cont_h_1 {height:685px; background:url(../images/header_1.jpg) no-repeat center top;}
+.main_1,.cont_1 {height:464px; background:url(../images/main1.jpg) no-repeat center top;}
+.main_2,.cont_2 {height:807px; background:url(../images/main2.jpg) no-repeat center top;}
+.main_3,.cont_3 {height:574px; background:url(../images/main3.jpg) no-repeat center top;}
+.main_4,.cont_4 {height:670px; background:url(../images/main4.jpg) no-repeat center top;}
+.main_5,.cont_5 {height:664px; background:url(../images/main5.jpg) no-repeat center top;}
+.main_6,.cont_6 {height:520px; background:url(../images/main6.jpg) no-repeat center top;}
 
 h2 {position:absolute;left:0; top:0; width:120px; height:40px;  line-height:500px; overflow:hidden;}
 .blank_s {background:url(../images/blank.gif); position:absolute;}
-/*以上为公用样式*/
-
-/*header*/
-.logo_link { position:absolute; width:100px; height:100px;background:url(../images/blank.gif)}
-.official_btn {}
-
-/*内容1*/
-.cont_1 .test {}
-
-/*内容2*/
-.cont_2 .test {}
-
-/*内容3*/
-.cont_3 .test {}
-
-/*内容4*/
-.cont_4 .test {}
-
-/*内容5*/
-.cont_5 .test {}
-
-/*内容6*/
-.cont_6 .test {}
-
-
-
-/*样式范例，专题制作完毕可删除*/
-/*页头 */
-.header ()
-/*导航 */
-.nav {}
-/*菜单 */
-.menu ()
-/*主框架 */
-.main {}
-/*内容区 */
-.cont {}
-/*负责人信息栏 */
-.infobar ()
-/*页尾 */
-.footer {}
-
-
-/*访问信息类*/
-/*报名 */
-.register {}
-/*注册按钮*/
-.inp_btn {}
-/*浮动登陆框*/ 
-.flo_register {}
-/*登录*/ 
-.login {}
-/*登录按钮*/ 
-.login_btn {}
-
-/*专题相关信息*/
-/*活动介绍*/ 
-.intro {} 
-/*优惠信息 销售政策 金融方案*/ 
-.sales {} 
-
-/*新闻类*/
-/*最新资讯 车讯*/ 
-.hot {}
-/*新闻动态*/ 
-.news {}
-
-/*视频 */
-.video {}
-
-/*互动类*/
-/*秒杀 */
-.seckill {}
-/*游戏 */
-.game {}
-/*签到*/  
-.sign_in {}
-/*车主访谈*/ 
-.interview {}
-/*点赞*/
-.like {}
-/*竞拍*/
-.auction {}
-
-/*经销商*/ 
-.dealer {} 
-/*参数配置*/ 
-.parameter {}
-
-/*专题文章类*/
-/*编辑推荐 编辑测评 精彩文字 媒体文章*/ 
-.essay {} 
-/*论坛帖 热帖聚集*/ 
-.bbs {} 
-
-/*图片类*/
-/*车型展示 车型亮点 车型介绍 车型靓图*/
-.show {}
-/*精美车图*/
-.photos {}
-
-/*浮动类*/
-/*浮动菜单*/ .flo_menu{}
-/*浮动图片*/ .flo_pic {}
-
-
-/*弹层*/
-.mask_layer {}
-.pop_xxx_btn {}/*中间词可以是弹层功能相关词*/
-.pop_xxx_box {}/*中间词可以是弹层功能相关词*/
-/*示意：视频弹层*/
-.pop_video_btn {}/*中间词可以是弹层功能相关词*/
-.pop_video_box {}/*中间词可以是弹层功能相关词*/
-
-/*获奖名单*/ .results {}
-/*敬请期待*/ .waiting {}
-/*微信*/ .weChat {}
-
-
 
 
 /* 弹窗 */
@@ -198,18 +77,148 @@ left: 539px;top: 56px;}
 .actGotop{position:fixed; _position:absolute; bottom:100px; right:50px; width:55px; height:55px; z-index:200; display:none;}
 .actGotop a,.actGotop a:link{width:55px;height:55px;display:inline-block; background:url(../images/gotop.gif) no-repeat; }
 
+a.logo_link {
+    position: absolute;
+    top: 0;
+    left: 42px;
+    width: 180px;
+    height: 60px;
+    /*background: rgba(255, 0, 0, 0.22);*/
+}
 
 /* 报名 */
-.register{float:left;width:310px;height:402px;padding:100px 0 0 20px;;overflow:hidden;}
-.register li{float:left;width:310px;height:30px;	}
-.register input{width:140px;height:20px;padding:0 0 0 5px;border:none; }
-.register span{float:left; width:60px}
-.register select{float:left;width:147px;height:20px;padding:0 0 0 5px;border:none;  }
-.reg_btn { float:left;width: 190px;height: 35px;cursor: pointer;background: #a62224;text-align: center;font-size: 20px;line-height: 35px;color: #fff;font-family: "Microsoft YaHei";font-weight: bold;left: 950px;top: 98px;}
-.reg_btn:hover {background:#da1f1e}
-.reg_box { background:#CCC}
-.reg_hover { background: #FFC}
-.reg_onfocus { background: #999}
+
+
+/*cont1*/
+.vedioDiv{ position: absolute;top: 17px;left: 63px;}
+.registerDiv{
+  position: absolute;
+  top: -178px;
+  right:0;
+
+  width: 392px;
+  height: 594px;
+  background: url("../images/register.jpg");
+
+}
+
+.register {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+
+  width: 321px;
+  height: 594px;
+
+}
+
+.register .form-control{
+  height: 45px !important;
+}
+
+.simulate-select{
+  height: 45px !important;
+}
+
+.register .form-control{
+  box-shadow:none !important;
+}
+
+div#prov {
+    width: 50%;
+}
+
+div#city {
+     position: absolute;
+    left: 50%;
+}
+
+dl.cityDL{
+  width: 57% !important;
+}
 
 
 
+dl.provDL.DLfixLayout {
+  position: absolute;
+  top: 45px;
+}
+
+
+dl.cityDL.DLfixLayout {
+    position: absolute;
+    top: 45px;
+}
+
+
+dl.DLfixLayout {
+    position: absolute;
+    top: 45px !important;
+}
+
+p.agreement1,p.agreement2{
+  font-family: "Microsoft YaHei";
+  font-size: 12px;
+  color: #75500d;
+}
+/*p.agreement1 span{
+  margin-left: 2px;
+}
+p.agreement2 span{
+  margin-left: 2px;
+}*/
+
+.btn-submit{
+  font-family: "Microsoft YaHei";
+  background-color: #de002b;
+  border: none;
+  border-radius: 4px;
+  color: #DDD;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  width: 99.5%;
+}
+
+.btn-submit:hover{
+  color: #FFF;
+
+}
+
+
+
+/*cont2*/
+.coinsDiv{
+  position: absolute;
+  top: 400px;
+  left: 435px;
+}
+
+.giftDiv{
+  position: absolute;
+  top: 330px;
+  right: 40px;
+}
+
+
+
+
+/*cont3*/
+.leftSeeMoreLink{
+  position: absolute;
+  top: 485px;
+  left: 320px;
+  width: 76px;
+  height: 30px;
+  /*background: red;*/
+}
+
+.rightSeeMoreLink{
+  position: absolute;
+  top: 485px;
+  right:  180px;
+  width: 76px;
+  height: 30px;
+  /*background: red;*/
+}
