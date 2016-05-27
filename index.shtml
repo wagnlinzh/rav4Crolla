@@ -174,7 +174,7 @@ date: 2016-05-27
 </div>
 </div>
 
-<!--  促销政策 -->
+<!--  促销政策 coin animate, gift animate-->
 <div class="main_2">
   <div class="cont_2">
     <div class="coinsDiv">
@@ -197,14 +197,22 @@ date: 2016-05-27
 <!-- 车型配置 -->
 <div class="main_4">
   <div class="cont_4">
-    <h2></h2>
+    <div class="RAV4Btn"></div>
+    <div class="KaLuoLaBtn"></div>
+    <div class="RAV4Table">
+
+    </div>
+
+    <div class="KaLuoLaTable">
+
+    </div>
   </div>
 </div>
 
-<!-- 精美车图 -->
+<!-- 精美车图  LoopPic-->
 <div class="main_5">
   <div class="cont_5">
-    <h2></h2>
+
   </div>
 </div>
 
