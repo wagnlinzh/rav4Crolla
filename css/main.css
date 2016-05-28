@@ -211,7 +211,7 @@ p.agreement2 span{
   left: 320px;
   width: 76px;
   height: 30px;
-  /*background: red;*/
+  /*background:  #ff6029;*/
 }
 
 .rightSeeMoreLink{
@@ -220,7 +220,7 @@ p.agreement2 span{
   right:  180px;
   width: 76px;
   height: 30px;
-  /*background: red;*/
+  /*background:  #ff6029;*/
 }
 
 
@@ -229,7 +229,220 @@ p.agreement2 span{
 }
 
 
+
+
+
 /*cont4*/
+.RAV4Table{
+  position: absolute;
+  top: 165px;
+  left: 0;
+
+  width: 1165px;
+  color: white;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+}
+
+.RAV4TableBody {
+  width: 1165px;
+  color: white;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+}
+
+
+.cont_4 tr{
+  background:  #1c202f;
+}
+
+tr.tableHeader1Fix{
+  background: #ff6029;
+  font-size: 16px;
+  text-align: center;
+  height: 36px;
+}
+
+tr.thirdRowFixed{
+  background: #ff6029;
+}
+
+.RAV4Table td,.RAV4TableBody td{
+  border:1px solid  #000;
+  text-align: center;
+}
+
+
+
+/*cont4 RAV4 roll*/
+
+.RAV4TableBody.roll{
+  height: 410px;
+  overflow:hidden;
+  width:100%;
+  position:relative;
+  zoom:1;
+  /*padding-right: 10px;*/
+}
+
+.RAV4TableBody .mCSB_scrollTools {
+  right: 0px;
+  top: 0px;
+  width: 20px;
+  height:410px;
+}
+
+.RAV4TableBody .mCSB_dragger {
+  width:20px;
+}
+
+/*roll 的小滑块的前景色*/
+.RAV4TableBody .mCSB_dragger_bar {
+  width:20px;
+  height:100px;
+  background:#ff6029;
+  cursor:pointer;
+}
+
+/*滚动条的背景色*/
+.RAV4TableBody .mCSB_draggerRail {
+  width:20px;
+  height:410px;
+  margin:0 auto;
+  background:#FFF;
+}
+
+
+.RAV4TableBody {
+    position: absolute;
+    top: 243px;
+    left: -1px;
+}
+
+
+
+
+
+
+
+
+/*KaLuoLaTable*/
+.KaLuoLaTable{
+  position: absolute;
+  top: 165px;
+  left: 0;
+
+  width: 1165px;
+  color: white;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+}
+
+.KaLuaLaTableBody{
+  width: 1165px;
+  color: white;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+}
+
+.KaLuoLaTable td,.KaLuaLaTableBody td{
+  border:1px solid  #000;
+  text-align: center;
+}
+
+
+
+/*KaLuaLaTableBody roll3*/
+
+
+
+.KaLuaLaTableBody.roll{
+  height: 410px;
+  overflow:hidden;
+  width:100%;
+  position:relative;
+  zoom:1;
+  /*padding-right: 10px;*/
+}
+
+.KaLuaLaTableBody .mCSB_scrollTools {
+  right: 0px;
+  top: 0px;
+  width: 20px;
+  height:410px;
+}
+
+.KaLuaLaTableBody .mCSB_dragger {
+  width:20px;
+}
+
+/*roll 的小滑块的前景色*/
+.KaLuaLaTableBody .mCSB_dragger_bar {
+  width:20px;
+  height:100px;
+  background:#ff6029;
+  cursor:pointer;
+}
+
+/*滚动条的背景色*/
+.KaLuaLaTableBody .mCSB_draggerRail {
+  width:20px;
+  height:410px;
+  margin:0 auto;
+  background:#FFF;
+}
+
+.KaLuaLaTableBody{
+    position: absolute;
+    top: 222px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+td:nth-child(1){
+  padding-left: 10px;
+  text-align: left;
+  width: 167px;
+}
+
+td:nth-child(3),td:nth-child(4){
+  width: 147px;
+}
+
+td:nth-child(2),td:nth-child(5),td:nth-child(6),td:nth-child(7),td:nth-child(8){
+  width: 139px;
+}
+
+
+
+
+table.tableLayout{
+  width: 1168px;
+}
+
+
+
+
+
+
 
 
 
@@ -242,7 +455,7 @@ p.agreement2 span{
 
 
 /*cont5*/
-.RAV4Btn{
+.RAV4Btn,.RAV4Btn4{
   position: absolute;
   top: 103px;
   left: 363px;
@@ -251,11 +464,10 @@ p.agreement2 span{
   height: 42px;
   border: 1px dashed  #ff6029;
   background: url();
-
 }
 
 
-.KaLuoLaBtn{
+.KaLuoLaBtn,.KaLuoLaBtn4{
   position: absolute;
   top: 103px;
   left: 600px;;
@@ -311,3 +523,37 @@ a.next:hover, a.prev:hover,a.next2:hover,a.prev2:hover{
   filter:alpha(opacity=60);
   opacity:0.6;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************/
+/****wanglinzhizhi 20160528*******/
+/*********************************/
