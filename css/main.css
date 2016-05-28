@@ -33,9 +33,9 @@ a:hover{color:#0992cb;text-decoration:underline;}
 .main_1,.cont_1 {height:464px; background:url(../images/main1.jpg) no-repeat center top;}
 .main_2,.cont_2 {height:807px; background:url(../images/main2.jpg) no-repeat center top;}
 .main_3,.cont_3 {height:574px; background:url(../images/main3.jpg) no-repeat center top;}
-.main_4,.cont_4 {height:670px; background:url(../images/main4.jpg) no-repeat center top;}
-.main_5,.cont_5 {height:664px; background:url(../images/main5.jpg) no-repeat center top;}
-.main_6,.cont_6 {height:520px; background:url(../images/main6.jpg) no-repeat center top;}
+.main_4,.cont_4 {height:670px; background:url(../images/main42.jpg) no-repeat center top;}
+.main_5,.cont_5 {height:664px; background:url(../images/main52.jpg) no-repeat center top;}
+.main_6,.cont_6 {height:520px; background:url(../images/main62.jpg) no-repeat center top;}
 
 h2 {position:absolute;left:0; top:0; width:120px; height:40px;  line-height:500px; overflow:hidden;}
 .blank_s {background:url(../images/blank.gif); position:absolute;}
@@ -221,4 +221,96 @@ p.agreement2 span{
   width: 76px;
   height: 30px;
   /*background: red;*/
+}
+
+
+.checkbox-submitbtn{
+  margin-top: 2px;
+}
+
+
+/*cont4*/
+
+
+
+
+
+
+
+
+
+
+
+/*cont5*/
+.RAV4Btn{
+  position: absolute;
+  top: 103px;
+  left: 363px;
+
+  width: 220px;
+  height: 42px;
+  border: 1px dashed  #ff6029;
+  background: url();
+
+}
+
+.RAV4Btn{
+  background:  #ff6029;
+}
+
+.KaLuoLaBtn{
+  position: absolute;
+  top: 103px;
+  left: 600px;;
+
+  width: 220px;
+  height: 42px;
+  border: 1px dashed  #ff6029;
+}
+
+.KaLuoLaBtn:hover{
+  background:  #ff6029;
+}
+
+.activeed{
+  background: #ff6029;
+}
+
+
+.RAV4Btnshow{
+  display: none;
+}
+.KaLuoLaBtnshow{
+  /*display: none;*/
+}
+
+.slideBox,.slideBox2{
+  position: absolute;
+  top:165px;
+}
+
+a.prev,a.next,a.prev2,a.next2{
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  color: #DDD;
+  background: #2d3854;
+  filter:alpha(opacity=50);
+  opacity:0.5;
+  font-size: 40px;
+  padding: 30px 10px;
+  text-decoration: none;
+}
+
+a.prev,a.prev2{
+  left: 0;
+}
+a.next,a.next2{
+  right:0;
+}
+
+a.next:hover, a.prev:hover,a.next2:hover,a.prev2:hover{
+  color: #FFF;
+  filter:alpha(opacity=60);
+  opacity:0.6;
 }

@@ -52,208 +52,315 @@ date: 2016-05-27
   <!--main1 video and register  -->
   <div class="main_1">
     <div class="cont_1">
-      <!-- <div class="vedioDiv">
-      <div id="vid_349430" autoplay>
-      <span class="loading"></span>
-      <span class="text">视频正在加载中...</span>
+      <!--
+      <div class="vedioDiv">
+        <div id="vid_349430" autoplay>
+          <span class="loading"></span>
+          <span class="text">视频正在加载中...</span>
+        </div>
+        <script language="javascript" type="text/javascript">
+        var width = 695;
+        var height = 395;
+        document.getElementById("vid_349430").style.width = width + "px";
+        document.getElementById("vid_349430").style.height = height + "px";
+        document.getElementById("vid_349430").style.display = "block";
+        document.getElementById("vid_349430").className = "videotemp vid_349430_" + width + "_" + height;
+        </script>
+        <script src="http://img1.bitautoimg.com/video/js/videoplayerwithnews.min150429.js" type="text/javascript" ></script>
+      </div>
+       -->
+      <div class="registerDiv">
+        <div class="register">
+          <ul class="column_1">
+            <li>
+              <input id="LoginName" name="form-input" type="text" class="form-control placeholder" value="姓名">
+
+            </li>
+            <li>
+              <input id="LoginPhone" name="form-input" type="text" class="form-control placeholder" value="电话">
+            </li>
+
+
+            <li>
+              <div id="prov" class="simulate-select" name="">
+                <input type="text" value="省份" class="form-control select_box" name="" readonly="readonly">
+                <dl class="provDL DLfixLayout">
+                  <dd data-value="181"> 北京省 </dd>
+                  <dd data-value="182"> 北京省 </dd>
+                  <dd data-value="183"> 北京省 取	</dd>
+                  <dd data-value="184"> 北京省 取	</dd>
+                  <dd data-value="185"> 北京省 取	</dd>
+                  <dd data-value="186"> 北京省 华	</dd>
+                  <dd data-value="187"> 北京省 华	</dd>
+                  <dd data-value="188"> 北京省 舰	</dd>
+                </dl>
+              </div>
+
+              <div id="city" class="simulate-select" name="">
+                <input type="text" value="城市" class="form-control select_box" name="" readonly="readonly">
+                <dl class="cityDL DLfixLayout">
+                  <dd data-value="181"> 杭州 	</dd>
+                  <dd data-value="182"> 杭州 	</dd>
+                  <dd data-value="183"> 杭州 进取	</dd>
+                  <dd data-value="184"> 杭州 进取	</dd>
+                  <dd data-value="185"> 杭州 进取	</dd>
+                  <dd data-value="186"> 杭州 豪华	</dd>
+                  <dd data-value="187"> 杭州 豪华	</dd>
+                  <dd data-value="188"> 杭州 旗舰	</dd>
+                </dl>
+              </div>
+            </li>
+
+            <li>
+              <div id="dealer" class="simulate-select" name="">
+                <input type="text" value="经销商" class="form-control select_box" name="" readonly="readonly">
+                <dl class="DLfixLayout">
+                  <dd data-value="181"> 经销商 杭州 	</dd>
+                  <dd data-value="182"> 经销商 杭州 	</dd>
+                  <dd data-value="183"> 经销商 杭州 进取	</dd>
+                  <dd data-value="184"> 经销商 杭州 进取	</dd>
+                  <dd data-value="185"> 经销商 杭州 进取	</dd>
+                  <dd data-value="186"> 经销商 杭州 豪华	</dd>
+                  <dd data-value="187"> 经销商 杭州 豪华	</dd>
+                  <dd data-value="188"> 经销商 杭州 旗舰	</dd>
+                </dl>
+              </div>
+            </li>
+
+
+            <li>
+              <div id="chexing" class="simulate-select" name="">
+                <input type="text" value="车型" class="form-control select_box" name="" readonly="readonly">
+                <dl class="type_s DLfixLayout">
+                  <dd data-value="181">一汽丰田·嘉旅1.6L手动舒适	</dd>
+                  <dd data-value="182">一汽丰田·嘉旅1.6L自动舒适	</dd>
+                  <dd data-value="183">一汽丰田·嘉旅180TSI自动进取	</dd>
+                  <dd data-value="184">一汽丰田·嘉旅230TSI手动进取	</dd>
+                  <dd data-value="185">一汽丰田·嘉旅230TSI自动进取	</dd>
+                  <dd data-value="186">一汽丰田·嘉旅230TSI自动豪华	</dd>
+                  <dd data-value="187">一汽丰田·嘉旅280TSI自动豪华	</dd>
+                  <dd data-value="188">一汽丰田·嘉旅280TSI自动旗舰	</dd>
+                </dl>
+              </div>
+            </li>
+
+            <li>
+              <div id="buytime" class="simulate-select" name="">
+                <input type="text" value="预购时间" class="form-control select_box" name="" readonly="readonly">
+                <dl class="DLfixLayout">
+                  <dd data-value="181">1000年	</dd>
+                  <dd data-value="182">1000年	</dd>
+                  <dd data-value="183">1000年进取	</dd>
+                  <dd data-value="184">1000年进取	</dd>
+                  <dd data-value="185">1000年进取	</dd>
+                  <dd data-value="186">1000年豪华	</dd>
+                  <dd data-value="187">1000年豪华	</dd>
+                  <dd data-value="188">1000年旗舰	</dd>
+                </dl>
+              </div>
+            </li>
+
+            <li>
+              <p class="agreement1"><input type="checkbox" name="agreement" value="-1"> *同意并已阅读《一汽丰田顾客个人信息保护基本方针》你的个人资料可能会提交至一汽丰田厂商的授权经销商与您进一步沟通试驾购车等事宜</p>
+
+              <p class="agreement2"><input type="checkbox" name="agreement2" value="-1"> *我同意和接受本活动组织方及其合作公司向我发送商业性信息</p>
+
+            </li>
+
+            <li class="checkbox-submitbtn">
+              <button type="button" id="denging" class="btn btn-submit">马上报名</button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <script language="javascript" type="text/javascript">
-    var width = 695;
-    var height = 395;
-    document.getElementById("vid_349430").style.width = width + "px";
-    document.getElementById("vid_349430").style.height = height + "px";
-    document.getElementById("vid_349430").style.display = "block";
-    document.getElementById("vid_349430").className = "videotemp vid_349430_" + width + "_" + height;
-  </script>
-  <script src="http://img1.bitautoimg.com/video/js/videoplayerwithnews.min150429.js" type="text/javascript" ></script>
-</div> -->
-<div class="registerDiv">
-  <div class="register">
-    <ul class="column_1">
-      <li>
-        <input id="LoginName" name="form-input" type="text" class="form-control placeholder" value="姓名">
+  </div>
 
-      </li>
-      <li>
-        <input id="LoginPhone" name="form-input" type="text" class="form-control placeholder" value="电话">
-      </li>
+  <!--  促销政策 coin animate, gift animate-->
+  <div class="main_2">
+    <div class="cont_2">
+      <div class="coinsDiv">
+        <img src="images/coin2.png" alt="" />
+      </div>
+      <div class="giftDiv">
+        <img src="images/gift.png" alt=""/>
+      </div>
+    </div>
+  </div>
 
+  <!--  编辑文章-->
+  <div class="main_3">
+    <div class="cont_3">
+      <a href="http://news.bitauto.com/duibi/20151030/0806558135.html" target="_blank" class="leftSeeMoreLink"></a>
+      <a href="http://news.bitauto.com/xcpd/20151223/1406568095.html" target="_blank" class="rightSeeMoreLink"></a>
+    </div>
+  </div>
 
-      <li>
-        <div id="prov" class="simulate-select" name="">
-          <input type="text" value="省份" class="form-control select_box" name="" readonly="readonly">
-          <dl class="provDL DLfixLayout">
-            <dd data-value="181"> 北京省 </dd>
-            <dd data-value="182"> 北京省 </dd>
-            <dd data-value="183"> 北京省 取	</dd>
-            <dd data-value="184"> 北京省 取	</dd>
-            <dd data-value="185"> 北京省 取	</dd>
-            <dd data-value="186"> 北京省 华	</dd>
-            <dd data-value="187"> 北京省 华	</dd>
-            <dd data-value="188"> 北京省 舰	</dd>
-          </dl>
+  <!-- 车型配置 -->
+  <div class="main_4">
+    <div class="cont_4">
+      <div class="RAV4Btn">
+          <img src="images/RAW4Icon.png" alt="" />
+      </div>
+
+      <div class="KaLuoLaBtn">
+        <img src="images/KaLuoLaIcon.png" alt="" />
+      </div>
+
+      <div class="RAV4Table">
+
+      </div>
+
+      <div class="KaLuoLaTable">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 精美车图  LoopPic-->
+  <div class="main_5">
+    <div class="cont_5">
+      <div class="RAV4Btn">
+        <img src="images/RAW4Icon.png" alt="" />
+      </div>
+
+      <div class="KaLuoLaBtn">
+        <img src="images/KaLuoLaIcon.png" alt="" />
+      </div>
+
+      <div class="slideBox RAV4Btnshow">
+        <div class="bd">
+          <div class="pagea">
+            <img src="images/RAV4/1.jpg" />
+          </div>
+
+          <div class="pageb">
+            <img src="images/RAV4/2.jpg" />
+          </div>
+
+          <div class="pagec">
+            <img src="images/RAV4/3.jpg" />
+          </div>
+
+          <div class="paged">
+            <img src="images/RAV4/4.jpg" />
+          </div>
+
+          <div class="pagee">
+            <img src="images/RAV4/5.jpg" />
+          </div>
+
+          <div class="pagee">
+            <img src="images/RAV4/6.jpg" />
+          </div>
         </div>
+        <a class="prev" href="javascript:void(0)"><</a>
+        <a class="next" href="javascript:void(0)">></a>
+      </div>
 
-        <div id="city" class="simulate-select" name="">
-          <input type="text" value="城市" class="form-control select_box" name="" readonly="readonly">
-          <dl class="cityDL DLfixLayout">
-            <dd data-value="181"> 杭州 	</dd>
-            <dd data-value="182"> 杭州 	</dd>
-            <dd data-value="183"> 杭州 进取	</dd>
-            <dd data-value="184"> 杭州 进取	</dd>
-            <dd data-value="185"> 杭州 进取	</dd>
-            <dd data-value="186"> 杭州 豪华	</dd>
-            <dd data-value="187"> 杭州 豪华	</dd>
-            <dd data-value="188"> 杭州 旗舰	</dd>
-          </dl>
+      <div class="slideBox2 KaLuoLaBtnshow">
+        <div class="bd2">
+          <div class="pagea">
+            <img src="images/KaLuoLa/1.jpg" alt="" />
+          </div>
+          <div class="pageb">
+            <img src="images/KaLuoLa/2.jpg" alt="" />
+          </div>
+          <div class="pagec">
+            <img src="images/KaLuoLa/3.jpg" alt="" />
+          </div>
+          <div class="paged">
+            <img src="images/KaLuoLa/4.jpg" alt="" />
+          </div>
+          <div class="pagee">
+            <img src="images/KaLuoLa/5.jpg" alt="" />
+          </div>
+          <div class="pagee">
+            <img src="images/KaLuoLa/6.jpg" alt="" />
+          </div>
         </div>
-      </li>
+        <a class="prev2" href="javascript:void(0)"><</a>
+        <a class="next2" href="javascript:void(0)">></a>
+      </div>
 
-      <li>
-        <div id="dealer" class="simulate-select" name="">
-          <input type="text" value="经销商" class="form-control select_box" name="" readonly="readonly">
-          <dl class="DLfixLayout">
-            <dd data-value="181"> 经销商 杭州 	</dd>
-            <dd data-value="182"> 经销商 杭州 	</dd>
-            <dd data-value="183"> 经销商 杭州 进取	</dd>
-            <dd data-value="184"> 经销商 杭州 进取	</dd>
-            <dd data-value="185"> 经销商 杭州 进取	</dd>
-            <dd data-value="186"> 经销商 杭州 豪华	</dd>
-            <dd data-value="187"> 经销商 杭州 豪华	</dd>
-            <dd data-value="188"> 经销商 杭州 旗舰	</dd>
-          </dl>
-        </div>
-      </li>
+    </div>
+  </div>
+
+  <!-- 一张美丽的车图 -->
+  <div class="main_6">
+    <div class="cont_6">
+
+    </div>
+  </div>
 
 
-      <li>
-        <div id="chexing" class="simulate-select" name="">
-          <input type="text" value="车型" class="form-control select_box" name="" readonly="readonly">
-          <dl class="type_s DLfixLayout">
-            <dd data-value="181">一汽丰田·嘉旅1.6L手动舒适	</dd>
-            <dd data-value="182">一汽丰田·嘉旅1.6L自动舒适	</dd>
-            <dd data-value="183">一汽丰田·嘉旅180TSI自动进取	</dd>
-            <dd data-value="184">一汽丰田·嘉旅230TSI手动进取	</dd>
-            <dd data-value="185">一汽丰田·嘉旅230TSI自动进取	</dd>
-            <dd data-value="186">一汽丰田·嘉旅230TSI自动豪华	</dd>
-            <dd data-value="187">一汽丰田·嘉旅280TSI自动豪华	</dd>
-            <dd data-value="188">一汽丰田·嘉旅280TSI自动旗舰	</dd>
-          </dl>
-        </div>
-      </li>
+  <div class="infobar">
+    <div class="cont_f">
+      <div class="txt_l">易车 买车无难事！</div>
+      <div class="txt_r">专题负责人：孙文硕/韩晓薇/王琳/</div>
+    </div>
+  </div>
+  <div class="footer">
+    <!--#include file="/include/special/2010/00001/2014_topic_footer_Manual.shtml"-->
+  </div>
 
-      <li>
-        <div id="buytime" class="simulate-select" name="">
-          <input type="text" value="预购时间" class="form-control select_box" name="" readonly="readonly">
-          <dl class="DLfixLayout">
-            <dd data-value="181">1000年	</dd>
-            <dd data-value="182">1000年	</dd>
-            <dd data-value="183">1000年进取	</dd>
-            <dd data-value="184">1000年进取	</dd>
-            <dd data-value="185">1000年进取	</dd>
-            <dd data-value="186">1000年豪华	</dd>
-            <dd data-value="187">1000年豪华	</dd>
-            <dd data-value="188">1000年旗舰	</dd>
-          </dl>
-        </div>
-      </li>
-
-      <li>
-        <p class="agreement1"><input type="checkbox" name="agreement" value="-1"> *同意并已阅读《一汽丰田顾客个人信息保护基本方针》你的个人资料可能会提交至一汽丰田厂商的授权经销商与您进一步沟通试驾购车等事宜</p>
-
-        <p class="agreement2"><input type="checkbox" name="agreement2" value="-1"> *我同意和接受本活动组织方及其合作公司向我发送商业性信息</p>
-
-      </li>
-
-      <li class="checkbox-submitbtn">
-        <button type="button" id="denging" class="btn btn-submit">马上报名</button>
-      </li>
+  <!-- 登录弹窗 -->
+  <div class="pop pop_login_box" >
+    <div class="pop_close">X</div>
+    <ul>
+      <li><span>姓名：</span><input type="text" id="LoginName" /></li>
+      <li><span>手机：</span><input type="text" id="LoginName" /></li>
+      <div class="login_btn">登录</div>
     </ul>
   </div>
-</div>
-</div>
-</div>
-
-<!--  促销政策 coin animate, gift animate-->
-<div class="main_2">
-  <div class="cont_2">
-    <div class="coinsDiv">
-      <img src="images/coin2.png" alt="" />
-    </div>
-    <div class="giftDiv">
-      <img src="images/gift.png" alt=""/>
+  <div class="pop intro_box">
+    <div class="pop_close">X</div>
+    <div class="pop_con">
+      <h3>竞拍说明</h3>
+      <div class="pop_desc roll">
+      </div>
     </div>
   </div>
-</div>
-
-<!--  编辑文章-->
-<div class="main_3">
-  <div class="cont_3">
-    <a href="http://news.bitauto.com/duibi/20151030/0806558135.html" target="_blank" class="leftSeeMoreLink"></a>
-    <a href="http://news.bitauto.com/xcpd/20151223/1406568095.html" target="_blank" class="rightSeeMoreLink"></a>
-  </div>
-</div>
-
-<!-- 车型配置 -->
-<div class="main_4">
-  <div class="cont_4">
-    <div class="RAV4Btn"></div>
-    <div class="KaLuoLaBtn"></div>
-    <div class="RAV4Table">
-
-    </div>
-
-    <div class="KaLuoLaTable">
-
-    </div>
-  </div>
-</div>
-
-<!-- 精美车图  LoopPic-->
-<div class="main_5">
-  <div class="cont_5">
-
-  </div>
-</div>
-
-<!-- 一张美丽的车图 -->
-<div class="main_6">
-  <div class="cont_6">
-    <h2></h2>
-  </div>
-</div>
-
-
-<div class="infobar">
-  <div class="cont_f">
-    <div class="txt_l">易车 买车无难事！</div>
-    <div class="txt_r">专题负责人：孙文硕/韩晓薇/王琳/</div>
-  </div>
-</div>
-<div class="footer">
-  <!--#include file="/include/special/2010/00001/2014_topic_footer_Manual.shtml"-->
-</div>
-
-<!-- 登录弹窗 -->
-<div class="pop pop_login_box" >
-  <div class="pop_close">X</div>
-  <ul>
-    <li><span>姓名：</span><input type="text" id="LoginName" /></li>
-    <li><span>手机：</span><input type="text" id="LoginName" /></li>
-    <div class="login_btn">登录</div>
-  </ul>
-</div>
-<div class="pop intro_box">
-  <div class="pop_close">X</div>
-  <div class="pop_con">
-    <h3>竞拍说明</h3>
-    <div class="pop_desc roll">
-    </div>
-  </div>
-</div>
-<div class="mask"></div>
-<!-- 专题通用include调用文件 -->
-<!--#include file="/zhuanti/adtopic/include/201511_pc.shtml"-->
+  <div class="mask"></div>
+  <!-- 专题通用include调用文件 -->
+  <!--#include file="/zhuanti/adtopic/include/201511_pc.shtml"-->
 
 </body>
+<script src="js/jquery.SuperSlide.js" charset="utf-8"></script>
+<script type="text/javascript">
+// cont3 slideBox
+jQuery(".slideBox").slide({
+mainCell:".bd",
+autoPlay:true
+});
+
+jQuery(".slideBox2").slide({
+mainCell:".bd2",
+autoPlay:true,
+prevCell:".prev2",
+nextCell:".next2"
+});
+
+//cont3 Btn
+$('.newMTW1Btn').click(function(){
+if ($('.newMTW1show').css("display") ==="none") {
+  $('.newKLW2Btn').removeClass("activeed");
+  $(this).addClass("activeed");
+  $('.newKLW2show').hide();
+  $('.newMTW1show').show();
+}
+});
+
+$('.newKLW2Btn').click(function(){
+if ($('.newKLW2show').css("display") ==="none") {
+  $('.newMTW1Btn').removeClass("activeed");
+  $(this).addClass("activeed");
+  $('.newMTW1show').hide();
+  $('.newKLW2show').show();
+}
+});
+
+
+</script>
+
 </html>
