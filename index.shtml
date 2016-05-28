@@ -220,7 +220,7 @@ date: 2016-05-27
   <!-- 精美车图  LoopPic-->
   <div class="main_5">
     <div class="cont_5">
-      <div class="RAV4Btn">
+      <div class="RAV4Btn activeed">
         <img src="images/RAW4Icon.png" alt="" />
       </div>
 
@@ -228,7 +228,7 @@ date: 2016-05-27
         <img src="images/KaLuoLaIcon.png" alt="" />
       </div>
 
-      <div class="slideBox RAV4Btnshow">
+      <div class="slideBox RAV4Slide">
         <div class="bd">
           <div class="pagea">
             <img src="images/RAV4/1.jpg" />
@@ -250,15 +250,16 @@ date: 2016-05-27
             <img src="images/RAV4/5.jpg" />
           </div>
 
-          <div class="pagee">
+          <div class="pagef">
             <img src="images/RAV4/6.jpg" />
           </div>
+
         </div>
         <a class="prev" href="javascript:void(0)"><</a>
         <a class="next" href="javascript:void(0)">></a>
       </div>
 
-      <div class="slideBox2 KaLuoLaBtnshow">
+      <div class="slideBox2 KaLuoLaSlide">
         <div class="bd2">
           <div class="pagea">
             <img src="images/KaLuoLa/1.jpg" alt="" />
@@ -275,7 +276,7 @@ date: 2016-05-27
           <div class="pagee">
             <img src="images/KaLuoLa/5.jpg" alt="" />
           </div>
-          <div class="pagee">
+          <div class="pagef">
             <img src="images/KaLuoLa/6.jpg" alt="" />
           </div>
         </div>
@@ -342,21 +343,21 @@ nextCell:".next2"
 });
 
 //cont3 Btn
-$('.newMTW1Btn').click(function(){
-if ($('.newMTW1show').css("display") ==="none") {
-  $('.newKLW2Btn').removeClass("activeed");
+$('.RAV4Btn').click(function(){
+if ($('.RAV4Slide').css("display") ==="none") {
+  $('.KaLuoLaBtn').removeClass("activeed");
   $(this).addClass("activeed");
-  $('.newKLW2show').hide();
-  $('.newMTW1show').show();
+  $('.KaLuoLaSlide').stop().fadeOut(500);
+  $('.RAV4Slide').stop().fadeIn(500);
 }
 });
 
-$('.newKLW2Btn').click(function(){
-if ($('.newKLW2show').css("display") ==="none") {
-  $('.newMTW1Btn').removeClass("activeed");
+$('.KaLuoLaBtn').click(function(){
+if ($('.KaLuoLaSlide').css("display") ==="none") {
+  $('.RAV4Btn').removeClass("activeed");
   $(this).addClass("activeed");
-  $('.newMTW1show').hide();
-  $('.newKLW2show').show();
+  $('.RAV4Slide').stop().fadeOut(500);
+  $('.KaLuoLaSlide').stop().fadeIn(500);
 }
 });
 

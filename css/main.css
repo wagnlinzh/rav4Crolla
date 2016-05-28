@@ -254,9 +254,6 @@ p.agreement2 span{
 
 }
 
-.RAV4Btn{
-  background:  #ff6029;
-}
 
 .KaLuoLaBtn{
   position: absolute;
@@ -277,11 +274,11 @@ p.agreement2 span{
 }
 
 
-.RAV4Btnshow{
-  display: none;
-}
-.KaLuoLaBtnshow{
+.RAV4BSlide{
   /*display: none;*/
+}
+.KaLuoLaSlide{
+  display: none;
 }
 
 .slideBox,.slideBox2{
