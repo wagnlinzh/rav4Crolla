@@ -33,7 +33,7 @@ a:hover{color:#0992cb;text-decoration:underline;}
 .main_1,.cont_1 {height:464px; background:url(../images/main1.jpg) no-repeat center top;}
 .main_2,.cont_2 {height:807px; background:url(../images/main2.jpg) no-repeat center top;}
 .main_3,.cont_3 {height:574px; background:url(../images/main3.jpg) no-repeat center top;}
-.main_4,.cont_4 {height:670px; background:url(../images/main42.jpg) no-repeat center top;}
+.main_4,.cont_4 {height:670px;background:url(../images/main42.jpg) no-repeat center top;}
 .main_5,.cont_5 {height:664px; background:url(../images/main52.jpg) no-repeat center top;}
 .main_6,.cont_6 {height:520px; background:url(../images/main62.jpg) no-repeat center top;}
 
@@ -319,6 +319,12 @@ tr.thirdRowFixed{
     left: -1px;
 }
 
+div#roll {
+    height: 430px;
+    width: 1200px;
+}
+
+
 
 
 
@@ -359,7 +365,7 @@ tr.thirdRowFixed{
 .KaLuaLaTableBody.roll{
   height: 410px;
   overflow:hidden;
-  width:100%;
+  width:1200px;
   position:relative;
   zoom:1;
   /*padding-right: 10px;*/
@@ -369,7 +375,7 @@ tr.thirdRowFixed{
   right: 0px;
   top: 0px;
   width: 20px;
-  height:410px;
+  height:430px;
 }
 
 .KaLuaLaTableBody .mCSB_dragger {
@@ -387,7 +393,7 @@ tr.thirdRowFixed{
 /*滚动条的背景色*/
 .KaLuaLaTableBody .mCSB_draggerRail {
   width:20px;
-  height:410px;
+  height:430px;
   margin:0 auto;
   background:#FFF;
 }
@@ -398,10 +404,17 @@ tr.thirdRowFixed{
 }
 
 
+.KALuoLaContainer{
+  display: none;
+}
 
 
 
 
+div#mCSB_3 {
+    position: absolute;
+    left: -2px;
+}
 
 
 
@@ -463,8 +476,9 @@ table.tableLayout{
   width: 220px;
   height: 42px;
   border: 1px dashed  #ff6029;
-  background: url();
+  cursor: pointer;
 }
+
 
 
 .KaLuoLaBtn,.KaLuoLaBtn4{
@@ -475,10 +489,12 @@ table.tableLayout{
   width: 220px;
   height: 42px;
   border: 1px dashed  #ff6029;
+  cursor: pointer;
 }
 
 .KaLuoLaBtn:hover{
   background:  #ff6029;
+  cursor: pointer;
 }
 
 .activeed{
