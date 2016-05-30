@@ -2392,7 +2392,7 @@ date: 2016-05-27
   </div>
 </div>
 <div class="mask"></div>
-<div class="DetailMessagePanel" style="display:block">
+<div class="DetailMessagePanel" style="display:none">
   <div class="closeMessagePanelBtn"></div>
   <div class=" roll5">
 

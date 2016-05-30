@@ -186,6 +186,10 @@ p.agreement2 span{
 
 }
 
+a.popDetailInfo{
+  color: #450202;
+  text-decoration: underline;
+}
 
 
 /*cont2*/
@@ -571,7 +575,8 @@ a.next:hover, a.prev:hover,a.next2:hover,a.prev2:hover{
 }
 
 .DetailMessagePanel h3{
-  margin-top: 10px;
+  /*margin-top: 30px;*/
+  padding-top: 20px;
 }
 
 .DetailMessagePanel p{
