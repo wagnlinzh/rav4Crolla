@@ -1,13 +1,13 @@
 $(document).ready(function (e) {
 
-/*切换标签*/	
+/*切换标签*/
 $(".menu li").each(function(i){
 	$(this).mouseover(function(){
 		$(".menu li").removeClass("cur").eq(i).addClass("cur");
-		$(".jx").hide().eq(i).show()		
+		$(".jx").hide().eq(i).show()
 	})
 })
-	
+
 
 /*隔行变色*/
 $(".jxs tr:even").addClass("jxs_bg")
@@ -48,7 +48,7 @@ $(".register").mouseenter(function(){
 inputbox.each(function(){
 	$(this).bind({
 		hover:function(){
-			$(this).toggleClass("reg_hover")	
+			$(this).toggleClass("reg_hover")
 		},
 		focus: function() {
 			$(this).addClass("reg_onfocus")
@@ -57,8 +57,8 @@ inputbox.each(function(){
 			$(this).removeClass("reg_onfocus")
 		}
 	})
-});  
-	
+});
+
 
 /*弹窗*/
 $('.pop_close').click(function () {
@@ -80,25 +80,24 @@ $('.pop_btn_2').click(function () {
 	$('.pop_box_2').fadeIn(200);
 	$('.mask').fadeIn(200);
 })
-	
+
 
 
 /*浮动菜单*/
 $(window).scroll(function(e){
-	s = $(document).scrollTop();	
-	
+	s = $(document).scrollTop();
+
 	/*回到顶部*/
-	if($(window).scrollTop() >= 300){ 
-			$('.actGotop').fadeIn(300); 
-		}else{    
-			$('.actGotop').fadeOut(300); 
-	}  
+	if($(window).scrollTop() >= 300){
+			$('.actGotop').fadeIn(300);
+		}else{
+			$('.actGotop').fadeOut(300);
+	}
 })
 
 
 $('.actGotop').click(function(){$('html,body').animate({scrollTop: 0}, 500);});
-	
+
 
 
 })
-
