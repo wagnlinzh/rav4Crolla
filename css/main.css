@@ -191,7 +191,7 @@ p.agreement2 span{
 /*cont2*/
 .coinsDiv{
   position: absolute;
-  top: 400px;
+  top: 355px;
   left: 435px;
 }
 
@@ -542,83 +542,104 @@ a.next:hover, a.prev:hover,a.next2:hover,a.prev2:hover{
 
 
 
+/*弹层*/
+.DetailMessagePanel{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -201px 0 0 -485px;
+  padding-top: 40px;
+  padding-left: 20px;
+  /*padding-bottom: 20px;*/
+  width: 971px;
+  height: 362px;
+  /*margin-bottom: 10px;*/
 
+  background: url("../images/messageDetail.png") no-repeat;
+  font-family: "Microsoft YaHei";
+  z-index: 3333;
+}
 
+.closeMessagePanelBtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  /*background: red;*/
+  cursor: pointer;
+}
 
+.DetailMessagePanel h3{
+  margin-top: 10px;
+}
 
-
-/*css 3 bounce animate*/
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+.DetailMessagePanel p{
+  width: 921px;
+  line-height: 24px;
 }
 
 
-@-webkit-keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-  }
 
-  40%, 43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
-  }
 
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
+.DetailMessagePanel .roll5{
+  height: 352px;
+  overflow:hidden;
+  width: 966px;
+  position:relative;
+  zoom:1;
 
-  90% {
-    -webkit-transform: translate3d(0,-4px,0);
-    transform: translate3d(0,-4px,0);
-  }
 }
 
-@keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-  }
-
-  40%, 43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0,-4px,0);
-    transform: translate3d(0,-4px,0);
-  }
+.DetailMessagePanel .mCSB_scrollTools {
+  right: 30px;
+  top: 3px;
+  width: 12px;
+  height:362px;
 }
 
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
+.DetailMessagePanel .mCSB_dragger {
+  width:12px;
 }
+
+/*roll 的小滑块的前景色*/
+.DetailMessagePanel .mCSB_dragger_bar {
+  width:12px;
+  height:60px;
+  background:#FFB229;
+  cursor:pointer;
+}
+
+/*滚动条的背景色*/
+.DetailMessagePanel .mCSB_draggerRail {
+  width:12px;
+  height:362px;
+  margin:0 auto;
+  background:#DDD;
+}
+
+/*.DetailMessagePanel{
+  position: absolute;
+  top: 222px;
+
+
+  height: 362px;
+  margin-bottom: 10px;
+}*/
+p.lastParaga {
+
+    padding-bottom: 40px;
+}
+
+
+
+/*
+
+div#mCSB_4 {
+    position: absolute;
+    left: -2px;
+}*/
+
 
 
 
