@@ -124,12 +124,8 @@ a.logo_link {
   box-shadow:none !important;
 }
 
-/*div#prov {
+div#prov {
     width: 50%;
-}*/
-
-input#fixedCityLayout {
-    width: 38%;
 }
 
 div#city {
@@ -138,7 +134,7 @@ div#city {
 }
 
 dl.cityDL{
-    width: 41% !important;
+  width: 57% !important;
 }
 
 
@@ -195,16 +191,7 @@ a.popDetailInfo{
   text-decoration: underline;
 }
 
-.register .form-control{
-  border-radius: 0;
-}
 
-.register ul.column_1 .select_box {
-    width: 97%;
-}
-.register .form-control{
-   width: 82.5%;
-}
 /*cont2*/
 .coinsDiv{
   position: absolute;
@@ -220,12 +207,6 @@ a.popDetailInfo{
 
 
 
-.provfixLayout {
-    width: 37%;
-}
-.register .form-control{
-  background: #ffc96a;
-}
 
 /*cont3*/
 .leftSeeMoreLink{

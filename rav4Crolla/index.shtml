@@ -90,7 +90,7 @@ date: 2016-05-27
 
 
       <li>
-        <div id="prov" class="simulate-select provfixLayout" name="">
+        <div id="prov" class="simulate-select" name="">
           <input type="text" value="省份" class="form-control select_box" name="" readonly="readonly">
           <dl class="provDL DLfixLayout">
             <dd data-value="-1"> 省份</dd>
@@ -98,7 +98,7 @@ date: 2016-05-27
         </div>
 
         <div id="city" class="simulate-select" name="">
-          <input type="text" value="城市" class="form-control select_box" name="" readonly="readonly" id="fixedCityLayout">
+          <input type="text" value="城市" class="form-control select_box" name="" readonly="readonly">
           <dl class="cityDL DLfixLayout">
             <dd data-value="-1"> 城市</dd>
           </dl>
