@@ -13,8 +13,9 @@ date: 2016-05-27
   <meta itemprop="image" content="http://www.bitauto.com/zhuanti/adtopic/js/share_logo.jpg">
   <meta itemprop="name" content="主视觉中标题">
   <meta name="mobile-agent" content="format=html5; url=http://www.bitauto.com/topics/adtopic/rav4_crolla_m" />
-  <script src="js/common.js" type="text/javascript" ></script>
+
   <script src="http://www.bitauto.com/zhuanti/adtopic/js/jquery-1.8.3.min.js" type="text/javascript" ></script>
+  <script src="js/common.js" type="text/javascript" ></script>
   <script src="http://www.bitauto.com/zhuanti/adtopic/frame_160120/js/reg_com.js" type="text/javascript"></script>
   <link href="http://www.bitauto.com/zhuanti/adtopic/frame_160120/css/style.css " rel="stylesheet" type="text/css" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -92,28 +93,14 @@ date: 2016-05-27
         <div id="prov" class="simulate-select" name="">
           <input type="text" value="省份" class="form-control select_box" name="" readonly="readonly">
           <dl class="provDL DLfixLayout">
-            <dd data-value="181"> 北京省 </dd>
-            <dd data-value="182"> 北京省 </dd>
-            <dd data-value="183"> 北京省 取	</dd>
-            <dd data-value="184"> 北京省 取	</dd>
-            <dd data-value="185"> 北京省 取	</dd>
-            <dd data-value="186"> 北京省 华	</dd>
-            <dd data-value="187"> 北京省 华	</dd>
-            <dd data-value="188"> 北京省 舰	</dd>
+            <dd data-value="-1"> 省份</dd>
           </dl>
         </div>
 
         <div id="city" class="simulate-select" name="">
           <input type="text" value="城市" class="form-control select_box" name="" readonly="readonly">
           <dl class="cityDL DLfixLayout">
-            <dd data-value="181"> 杭州 	</dd>
-            <dd data-value="182"> 杭州 	</dd>
-            <dd data-value="183"> 杭州 进取	</dd>
-            <dd data-value="184"> 杭州 进取	</dd>
-            <dd data-value="185"> 杭州 进取	</dd>
-            <dd data-value="186"> 杭州 豪华	</dd>
-            <dd data-value="187"> 杭州 豪华	</dd>
-            <dd data-value="188"> 杭州 旗舰	</dd>
+            <dd data-value="-1"> 城市</dd>
           </dl>
         </div>
       </li>
@@ -122,14 +109,8 @@ date: 2016-05-27
         <div id="dealer" class="simulate-select" name="">
           <input type="text" value="经销商" class="form-control select_box" name="" readonly="readonly">
           <dl class="DLfixLayout">
-            <dd data-value="181"> 经销商 杭州 	</dd>
-            <dd data-value="182"> 经销商 杭州 	</dd>
-            <dd data-value="183"> 经销商 杭州 进取	</dd>
-            <dd data-value="184"> 经销商 杭州 进取	</dd>
-            <dd data-value="185"> 经销商 杭州 进取	</dd>
-            <dd data-value="186"> 经销商 杭州 豪华	</dd>
-            <dd data-value="187"> 经销商 杭州 豪华	</dd>
-            <dd data-value="188"> 经销商 杭州 旗舰	</dd>
+            <dd data-value="-1"> 经销商</dd>
+
           </dl>
         </div>
       </li>
@@ -137,32 +118,40 @@ date: 2016-05-27
 
       <li>
         <div id="chexing" class="simulate-select" name="">
-          <input type="text" value="车型" class="form-control select_box" name="" readonly="readonly">
+          <input type="text" value="意向车型" class="form-control select_box" name="" readonly="readonly" />
           <dl class="type_s DLfixLayout">
-            <dd data-value="181">一汽丰田·嘉旅1.6L手动舒适	</dd>
-            <dd data-value="182">一汽丰田·嘉旅1.6L自动舒适	</dd>
-            <dd data-value="183">一汽丰田·嘉旅180TSI自动进取	</dd>
-            <dd data-value="184">一汽丰田·嘉旅230TSI手动进取	</dd>
-            <dd data-value="185">一汽丰田·嘉旅230TSI自动进取	</dd>
-            <dd data-value="186">一汽丰田·嘉旅230TSI自动豪华	</dd>
-            <dd data-value="187">一汽丰田·嘉旅280TSI自动豪华	</dd>
-            <dd data-value="188">一汽丰田·嘉旅280TSI自动旗舰	</dd>
+            <dd data-value="7">
+              RAV4
+            </dd>
+            <dd data-value="4">
+              卡罗拉
+            </dd>
           </dl>
         </div>
       </li>
 
       <li>
+
         <div id="buytime" class="simulate-select" name="">
-          <input type="text" value="预购时间" class="form-control select_box" name="" readonly="readonly">
+
+          <input type="text" value="预购时间" class="form-control select_box" name="" readonly="readonly" />
+
           <dl class="DLfixLayout">
-            <dd data-value="181">1000年	</dd>
-            <dd data-value="182">1000年	</dd>
-            <dd data-value="183">1000年进取	</dd>
-            <dd data-value="184">1000年进取	</dd>
-            <dd data-value="185">1000年进取	</dd>
-            <dd data-value="186">1000年豪华	</dd>
-            <dd data-value="187">1000年豪华	</dd>
-            <dd data-value="188">1000年旗舰	</dd>
+            <dd data-value="1">
+              一周之内
+            </dd>
+            <dd data-value="2">
+              一个月之内
+            </dd>
+            <dd data-value="3">
+              三个月之内
+            </dd>
+            <dd data-value="4">
+              三个月之外
+            </dd>
+            <dd data-value="0">
+              已购车
+            </dd>
           </dl>
         </div>
       </li>
@@ -2374,7 +2363,7 @@ date: 2016-05-27
 <div class="infobar">
   <div class="cont_f">
     <div class="txt_l">易车 买车无难事！</div>
-    <div class="txt_r">专题负责人：孙文硕/韩晓薇/王琳/</div>
+    <div class="txt_r">专题负责人：孙文硕/韩晓薇/王琳/曹亚辉</div>
   </div>
 </div>
 <div class="footer">
@@ -2442,7 +2431,14 @@ date: 2016-05-27
 
 <!-- 专题通用include调用文件 -->
 <!--#include file="/zhuanti/adtopic/include/201511_pc.shtml"-->
-
+<script type="text/javascript">
+        var bitautoskweburl = "http://www.bitauto.com/zhuanti/adtopic/webapisk/JsConfig20150504/JsCommon20150504/";
+        document.write('<scri' + 'pt src=' + bitautoskweburl + 'config.js type="text/javascript"></s' + 'cript>');
+        document.write('<scri' + 'pt src=' + bitautoskweburl + 'skcommon.js type="text/javascript"></s' + 'cript>');
+    </script>
+    <script type="text/javascript" src="http://ip.bitauto.com/iplocation/setcookie.ashx"></script>
+    <script src="common/base_market.js" type="text/javascript"></script>
+    <script src="common/dealer.js" type="text/javascript"></script>
 </body>
 <script src="js/jquery.SuperSlide.js" charset="utf-8"></script>
 <script src="./js/jquery.mCustomScrollbar.min.js" charset="utf-8"></script>
