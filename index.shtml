@@ -54,6 +54,7 @@ date: 2016-05-27
   <div class="main_h_1">
     <div class="cont_h_1">
       <a href="http://www.ftms.com.cn/index.php" target="_blank" class="logo_link"></a>
+      <a href="http://www.ftms.com.cn/index.php" target="_blank" class="office_link_Btn">查看官网</a>
     </div>
   </div>
 
@@ -157,9 +158,9 @@ date: 2016-05-27
       </li>
 
       <li>
-        <p class="agreement1"><input type="checkbox" name="agreement" value="-1"> *同意并已阅读<a class="popDetailInfo" href="javascript:void(0)">《一汽丰田顾客个人信息保护基本方针》</a>你的个人资料可能会提交至一汽丰田厂商的授权经销商与您进一步沟通试驾购车等事宜</p>
+        <p class="agreement1"><input type="checkbox" id="checkbox1" name="agreement" value="-1"> *同意并已阅读<a class="popDetailInfo" href="javascript:void(0)">《一汽丰田顾客个人信息保护基本方针》</a>你的个人资料可能会提交至一汽丰田厂商的授权经销商与您进一步沟通试驾购车等事宜</p>
 
-        <p class="agreement2"><input type="checkbox" name="agreement2" value="-1"> *我同意和接受本活动组织方及其合作公司向我发送商业性信息</p>
+        <p class="agreement2"><input type="checkbox" id="checkbox2" name="agreement2" value="-1"> *我同意和接受本活动组织方及其合作公司向我发送商业性信息</p>
 
       </li>
 

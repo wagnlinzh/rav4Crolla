@@ -743,6 +743,32 @@ div#mCSB_4 {
 
 
 
+.office_link_Btn{
+  position: absolute;
+  top: 440px;
+  right: 0;
+
+  font-size: 36px;
+  color: #ffb229;
+  width: 220px;
+  height: 50px;
+  line-height: 50px;
+  font-family: "Microsoft YaHei";
+  border: 1px dashed  #ffb229;
+  cursor: pointer;
+  background: none;
+
+}
+
+a.office_link_Btn {
+    text-align: center;
+    text-decoration: none;
+}
+
+a.office_link_Btn:hover{
+  color:#ffb229;
+}
+
 
 
 
