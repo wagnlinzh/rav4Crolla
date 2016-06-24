@@ -37,10 +37,7 @@
 .simulate-select dl dd{height:22px;line-height:22px;overflow:hidden;padding:0 3%;cursor:pointer;z-index:999;position:relative;}
 .simulate-select dl dd:hover{background-color:#3399fe; color:#fff;}
 .on_ie7_hack{*z-index:10;}
-/*Icon-font Style*/
-@font-face {font-family: "iconfont";src: url('../iconfont/iconfont.eot'); /* IE9*/src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('../iconfont/iconfont.woff') format('woff'), /* chrome, firefox */url('../iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */}
-.iconfont {font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
-.icon-shouji:before { content: "\e6ec"; }.icon-shouji1:before { content: "\e679"; }.icon-xingming:before { content: "\e632"; }.icon-xingming1:before { content: "\e61b"; }.icon-xingbie:before { content: "\e6c6"; }.icon-xingbie1:before { content: "\e605"; }.icon-tripchengshi:before { content: "\e62a"; }.icon-tripchengshifubenxian:before { content: "\e62b"; }.icon-dingwei:before { content: "\e60c"; }.icon-dingwei1:before { content: "\e63f"; }.icon-chexing:before { content: "\e6ac"; }.icon-che:before { content: "\e608"; }.icon-wodedailishang:before { content: "\e610"; }.icon-icon:before { content: "\e622"; }.icon-c:before { content: "\e60e"; }.icon-yanzhengma:before { content: "\e613"; }
+
 /*Checkbox Style*/
 .checkbox-submitbtn {display: block;margin-bottom: 10px;margin-top: 10px;text-align: center;position: relative;}
 .checkbox-submitbtn label {display: inline-block;cursor: pointer;font-weight: 400;margin-bottom: 2%;min-height: 20px;padding-left: 20px;max-width: 100%;  }
@@ -79,5 +76,3 @@
 *html .register ul.column_2 li {width: 46.6%;margin-left:2%}
 *html .register ul.column_2 li.verification{ width:36% !important; float:left;}
 *html .register ul.column_2 li.yzm{width:9.5% !important;margin-left: 1%;}
-
-
