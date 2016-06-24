@@ -14,11 +14,6 @@ module.exports = {
       },
 
       {
-        test:/\.css$/,
-        loader:'style!css'
-      },
-
-      {
         test: /\.png$/,
         loader: "file-loader"
       },
