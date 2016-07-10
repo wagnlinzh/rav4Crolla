@@ -1,3 +1,5 @@
+var webpack=require('webpack');
+
 module.exports = {
   //入口
   entry: './main.js',
@@ -5,7 +7,8 @@ module.exports = {
   //出口
   output: {
     path: __dirname+'/img', // 输出文件的保存路径
-    filename: 'bundle.js' // 输出文件的名称
+    filename: 'bundle.js', // 输出文件的名称
+     publicPath: "./img/"
   },
 
   //引入模块
@@ -26,6 +29,16 @@ module.exports = {
       }
 
     ]
-  }
+  },
+
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
+    }),
+  ]
+
+
 
 };
