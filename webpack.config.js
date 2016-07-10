@@ -1,18 +1,20 @@
 module.exports = {
+  //入口
   entry: './main.js',
+
+  //出口
   output: {
     path: __dirname+'/img', // 输出文件的保存路径
     filename: 'bundle.js' // 输出文件的名称
   },
 
-
+  //引入模块
   module: {
     loaders: [
       {
         test: /\.css$/,
-        loader: 'style!css',
+        loader: 'style-loader!css-loader',
       },
-
       {
         test: /\.png$/,
         loader: "file-loader"
@@ -24,7 +26,6 @@ module.exports = {
       }
 
     ]
-  },
+  }
 
-
-}
+};
