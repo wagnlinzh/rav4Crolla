@@ -1,8 +1,8 @@
 console.log("test2 online changes :)");
-require('./src/css/style.css');
-require('./src/css/main.css');
+require('./css/style.css');
+require('./css/main.css');
+// require('./index.html');
 
-
-require('./src/js/jquery.mCustomScrollbar.min.js');
-require('./src/js/jquery.SuperSlide.js');
-require('./src/js/wl.js');
+// require('./src/js/jquery.mCustomScrollbar.min.js');
+// require('./src/js/jquery.SuperSlide.js');
+// require('./src/js/wl.js');

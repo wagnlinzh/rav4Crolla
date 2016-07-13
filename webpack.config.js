@@ -1,4 +1,8 @@
+var path = require('path');
 var webpack=require('webpack');
+
+var ROOT_PATH = path.resolve(__dirname);
+var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -6,19 +10,19 @@ module.exports = {
   entry:
   {
     bundle:'./main.js',
-    vendors: './src/js/jquery1.8.3.min.js',
+    // vendors: './js/jquery1.8.3.min.js',
   },
 
   //出口
   output: {
-    path: __dirname+'/dist/', // 输出文件的保存路径
+    path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
-    filename:'[name].js',
+    filename:'[name].[hash]js',
     publicPath: "./dist/"
   },
 
   //enable dev source map
-  devtool: 'eval-source-map',
+  // devtool: 'eval-source-map',
   //enable dev server
 
   //引入模块
@@ -27,13 +31,13 @@ module.exports = {
     loaders: [
       {
         test: /\.css$/,
-        loader: ['style','css?sourceMap'],
-        include:src
+        loader: 'style!css',
+
       },
 
       {
         test: /\.(png|jpg|gif|jpeg)$/,
-        loader: 'url-loader?limit=8192&name=./images/[hash].[ext]'
+        loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
       },
 
       {
@@ -47,7 +51,8 @@ module.exports = {
 
       {
         test:/\.html$/,
-        loader:'html-loader'
+        loader:'html-loader',
+
       }
     ]
   },
@@ -61,11 +66,11 @@ module.exports = {
       "window.jQuery": "jquery"
     }),
     // new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')
-    new HtmlwebpackPlugin({
-      title: 'Hello Mobile app',
-      template: path.resolve(TEM_PATH, 'mobile.html'),
-      filename: 'mobile.html'
-    }),
+    // new HtmlwebpackPlugin({
+    //   title: 'Hello html-webpack-plugin',
+    //   filename: 'HtmlwebpackPlugin.html'
+    // }),
+
   ]
 
 
