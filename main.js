@@ -1,9 +1,8 @@
 console.log("test2 online changes :)");
-require('./css/style.css');
-require('./css/main.css');
+require('./src/css/style.css');
+require('./src/css/main.css');
 
 
-
-
-
-// var HtmlwebpackPlugin = require('html-webpack-plugin');
+require('./src/js/jquery.mCustomScrollbar.min.js');
+require('./src/js/jquery.SuperSlide.js');
+require('./src/js/wl.js');

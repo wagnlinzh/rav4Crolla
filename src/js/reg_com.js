@@ -1,4 +1,3 @@
-﻿;
 $(function () {
     $(".simulate-select input").attr("readOnly", true);
     $('.simulate-select').click(function (e) {
@@ -10,7 +9,7 @@ $(function () {
             e.stopPropagation();
         }
     });
-    /*閫夋嫨涓嬫媺鍊�*/
+
     /*	$('.simulate-select dl dd').hover(function(e) {
      $(this).toggleClass('on');
      e.stopPropagation()
@@ -19,7 +18,7 @@ $(function () {
     if (jQuery.fn.on) {
         jQuery('.simulate-select dl').on("click", "dd",
             function (e) {
-                var indexInput = $(this).parents('.simulate-select').find('input')
+                var indexInput = $(this).parents('.simulate-select').find('input');
                 var val = $(this).text();
                 var dataVal = $(this).attr('data-value');
 
@@ -29,13 +28,13 @@ $(function () {
                 $('.simulate-select').removeClass("on_ie7_hack");
                 $('.simulate-select dl').hide();
                 $('.simulate-select').css("background-position", "right top");
-                e.stopPropagation()
+                e.stopPropagation();
             }
         )
         ;
     } else {
         jQuery('.simulate-select dl dd').bind("click", function (e) {
-            var indexInput = $(this).parents('.simulate-select').find('input')
+            var indexInput = $(this).parents('.simulate-select').find('input');
             var val = $(this).text();
             var dataVal = $(this).attr('data-value');
 
@@ -45,14 +44,14 @@ $(function () {
             $('.simulate-select').removeClass("on_ie7_hack");
             $('.simulate-select dl').hide();
             $('.simulate-select').css("background-position", "right top");
-            e.stopPropagation()
+            e.stopPropagation();
         });
     }
 
 
     $(document).click(function () {
         $('.simulate-select').css("background-position", "right top");
-        $('.simulate-select dl').hide()
+        $('.simulate-select dl').hide();
         $('.simulate-select').removeClass("on_ie7_hack");
     });
 
@@ -63,9 +62,9 @@ $(function () {
             }
         },
         blur: function () {
-            if (this.value == "") {
+            if (this.value === "") {
                 this.value = this.defaultValue;
             }
         }
     });
-})
+});
