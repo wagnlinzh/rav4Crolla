@@ -78,9 +78,9 @@ by wanglinzhizhi
 
 
 
-<br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
 
-<br />
+
 
 ## 这是项目的修改日志
 
@@ -90,6 +90,8 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
+
+<br /><br /><br /><br /><br /><br /><br />
 
 ## 关于webpack的log
 
@@ -151,11 +153,17 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
-### 该不该用模板呢? 怎么用模板?
+#### 该不该用模板呢? 怎么用模板?
+
+
+
+
+
+
 
 <br /><br /><br /><br /><br />
 
-### next hash 化,去缓存 -> 必须hash的原因, 缓存. -> html-webpack-plugin
+#### next hash 化,去缓存 -> 必须hash的原因, 缓存. -> html-webpack-plugin
 
 
 
@@ -169,4 +177,4 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
-### 经典问题, 第三方插件对jquery的依赖问题.怎么解决呢?
+#### 经典问题, 第三方插件对jquery的依赖问题.怎么解决呢?
