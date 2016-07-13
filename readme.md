@@ -107,7 +107,7 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
    ​
 
-2. next to pack -> js
+1. next to pack -> js
 
 
 
@@ -156,3 +156,17 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 <br /><br /><br /><br /><br />
 
 ### next hash 化,去缓存 -> 必须hash的原因, 缓存. -> html-webpack-plugin
+
+
+
+
+
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br />
+
+
+
+### 经典问题, 第三方插件对jquery的依赖问题.怎么解决呢?

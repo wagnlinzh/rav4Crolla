@@ -1,6 +1,9 @@
 console.log("test2 online changes :)");
 require('./css/style.css');
 require('./css/main.css');
+var $=require('jquery');
+
+
 // require('./index.html');
 
 // require('./src/js/jquery.mCustomScrollbar.min.js');
