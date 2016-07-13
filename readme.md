@@ -187,3 +187,13 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 #### 经典问题, 第三方插件对jquery的依赖问题.怎么解决呢?
+
+```
+new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
+    }),
+```
+
+部分代码正确执行了. 还有些代码没有正确执行.

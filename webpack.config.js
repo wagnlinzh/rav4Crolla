@@ -4,20 +4,22 @@ var webpack=require('webpack');
 var ROOT_PATH = path.resolve(__dirname);
 var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
+// var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 
 module.exports = {
   //入口
   entry:
-  {
-    jquery: './js/jquery1.8.3.min.js',    
+  {    
     bundle:'./main.js',
+      
     supperSlide:'./js/jquery.SuperSlide.js',
     mScrollbar:'./js/jquery.mCustomScrollbar.min.js',
     regCom:'./js/reg_com.js',
-    wl:'./js/wl.js',
     common:'./js/common.js',
-    dealer:'./common/dealer.js',
-    market:'./common/base_market.js'
+     wl:'./js/wl.js', 
+    //  has:'./hah.js',
+    // dealer:'./common/dealer.js',
+    // market:'./common/base_market.js'
   },
 
   //出口
@@ -39,11 +41,14 @@ module.exports = {
       {
         test: /\.css$/,
         loader: 'style!css',
+        exclude:'node_modules'
       },
 
       {
         test: /\.(png|jpg|gif|jpeg)$/,
         loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
+        exclude:'node_modules'
+        
       },
 
       // {
@@ -58,21 +63,23 @@ module.exports = {
       {
         test:/\.html$/,
         loader:'html-loader',
+        exclude:'node_modules'
+        
       }
     ]
   },
 
   plugins: [
 
-    // //provide $, jQuery and window.jQuery to every script
-    // new webpack.ProvidePlugin({
-    //   $: "jquery",
-    //   jQuery: "jquery",
-    //   "window.jQuery": "jquery"
-    // }),
+    //provide $, jQuery and window.jQuery to every script
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
+    }),
 
-    new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
-
+    // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
+    //  new CommonsChunkPlugin('jquery.js'),
     new HtmlwebpackPlugin({
       title: 'Hello html-webpack-plugin',
       filename: 'ha.html',

@@ -1,7 +1,7 @@
 console.log("test2 online changes :)");
 require('./css/style.css');
 require('./css/main.css');
-import $ from 'jquery';
+// import $ from 'jquery';
 
 // var $ = require('jquery');
 

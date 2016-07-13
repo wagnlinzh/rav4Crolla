@@ -15,6 +15,7 @@ $RECYCLE.BIN/
 *.msp
 *.zip
 node_modules
+*.vscode
 
 
 # Windows shortcuts
