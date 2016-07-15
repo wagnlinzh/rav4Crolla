@@ -10,13 +10,14 @@ module.exports = {
   //入口
   entry:
   {    
-    bundle:'./main.js',
-      
-    supperSlide:'./js/jquery.SuperSlide.js',
+    bundle:'./main.js', //这个里面主要放的是各种css 等样式
+    // jquery:'./js/jquery1.8.3.min.js',
+    // supperSlide:'./js/jquery.SuperSlide.js',
     mScrollbar:'./js/jquery.mCustomScrollbar.min.js',
     regCom:'./js/reg_com.js',
     common:'./js/common.js',
-     wl:'./js/wl.js', 
+
+    //  wl:'./js/wl.js', 
     //  has:'./hah.js',
     // dealer:'./common/dealer.js',
     // market:'./common/base_market.js'
@@ -33,6 +34,7 @@ module.exports = {
   //enable dev source map
   // devtool: 'eval-source-map',
   //enable dev server
+
 
   //引入模块
   module: {
@@ -64,7 +66,6 @@ module.exports = {
         test:/\.html$/,
         loader:'html-loader',
         exclude:'node_modules'
-        
       }
     ]
   },
@@ -80,14 +81,15 @@ module.exports = {
 
     // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
     //  new CommonsChunkPlugin('jquery.js'),
+    
     new HtmlwebpackPlugin({
-      title: 'Hello html-webpack-plugin',
+      title: 'Ha.html html-webpack-plugin',
       filename: 'ha.html',
       template:"./index.html",
-      inject: 'head' 
+      inject: 'body' 
     }),
 
-  ]
+  ],
 
 
 

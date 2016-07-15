@@ -1,3 +1,8 @@
+
+function HHH(){
+
+
+
 $(document).ready(function(e) {
 
   /*切换标签*/
@@ -104,3 +109,8 @@ $(document).ready(function(e) {
   });
 
 });
+
+}
+
+
+module.exports=HHH;

@@ -1,3 +1,7 @@
+
+function ABC(){
+
+
 $(function () {
     $(".simulate-select input").attr("readOnly", true);
     $('.simulate-select').click(function (e) {
@@ -68,3 +72,7 @@ $(function () {
         }
     });
 });
+    
+}
+
+module.exports=ABC;
