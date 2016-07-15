@@ -28,7 +28,7 @@ module.exports = {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
     filename: '[name].[hash].js',
-    // publicPath: "./dist/"
+    // publicPath: "./images"
   },
 
   //enable dev source map
@@ -56,7 +56,7 @@ module.exports = {
       {
         test: /\.css$/,
         // loader: 'style!css',
-        loaders: ['style', 'css?sourceMap'],
+        loaders: ['style', 'css??sourceMap'],
         exclude: 'node_modules'
       },
 
