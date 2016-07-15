@@ -1,5 +1,5 @@
 
-function HHH(){
+
 
 
 
@@ -109,8 +109,3 @@ $(document).ready(function(e) {
   });
 
 });
-
-}
-
-
-module.exports=HHH;

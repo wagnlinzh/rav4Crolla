@@ -1,5 +1,4 @@
 
-function ABC(){
 
 
 $(function () {
@@ -73,6 +72,3 @@ $(function () {
     });
 });
     
-}
-
-module.exports=ABC;
