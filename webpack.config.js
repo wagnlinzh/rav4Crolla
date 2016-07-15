@@ -32,17 +32,31 @@ module.exports = {
   },
 
   //enable dev source map
-  // devtool: 'eval-source-map',
+  devtool: 'eval-source-map',
   //enable dev server
-
+   
+   devServer: {
+    historyApiFallback: true,
+    hot: true,
+    inline: true,
+    progress: true,
+  },
 
   //引入模块
   module: {
 
+    //  preLoaders: [
+    //     {
+    //            test: /\.jsx?$/,
+    //            loader: 'jshint-loader'
+    //     }
+    // ],
+
     loaders: [
       {
         test: /\.css$/,
-        loader: 'style!css',
+        // loader: 'style!css',
+        loaders: ['style', 'css?sourceMap'],
         exclude: 'node_modules'
       },
 

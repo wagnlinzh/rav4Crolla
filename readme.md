@@ -4,6 +4,10 @@
 
 需要做的是把当前的专题用webpack包装起来.
 
+
+
+
+<br /><br />
 ## log
 
 0710 主题
@@ -18,7 +22,7 @@ webpack html-loader
 
 
 
-
+<br /><br />
 ## PART 1
 
 
@@ -40,7 +44,7 @@ webpack html-loader
 
 
 
-
+<br /><br />
 
 
 # PART 2
@@ -78,8 +82,7 @@ by wanglinzhizhi
 
 
 
-<br /><br /><br /><br /><br /><br />
-
+<br /><br />
 
 
 ## 这是项目的修改日志
@@ -91,7 +94,7 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
-<br /><br /><br /><br /><br /><br /><br />
+<br /><br />
 
 ## 关于webpack的log
 
@@ -150,7 +153,7 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
-<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br />
 
 
 
@@ -170,7 +173,7 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
-<br /><br /><br /><br /><br />
+<br /><br />
 
 #### next hash 化,去缓存 -> 必须hash的原因, 缓存. -> html-webpack-plugin
 
@@ -182,7 +185,7 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 
-<br /><br /><br /><br /><br /><br /><br />
+<br />
 
 
 
@@ -201,7 +204,7 @@ new webpack.ProvidePlugin({
 
 
 
-<br /><br /><br /><br /><br /><br /><br />
+<br /><br />
 ## logo 0715
 
 我试着把jquery 换成了1.12.x版本, 额,基本没事儿,因为我把jquery1.12.x版本的内容放到原版中没有问题.虽然有个小报错, 但是没有关系.     
@@ -251,8 +254,13 @@ test...
 - 关于 怎么优化webpack的性能.....loading....
 
 
+## #6
 
+关于调试
+可以用映射,映射到源文件上 这样调试的时候不会不知道代码在哪儿.
 
+使用`devtool: 'eval-source-map' ` 放在配置文件中.
+需要注意的是, `css?sourceMap` 对于css ,只需要给css-laoder加
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -266,4 +274,9 @@ ctrl+` 内嵌终端
 
 主要是可以不用页面切换, 缺点是, cmd的终端太弱.... mac上好一点. 可以用zsh :)
 
+
+
 ```
+
+
+Terminal 中不能输入中文.恩....(T_T)
