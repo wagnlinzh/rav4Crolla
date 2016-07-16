@@ -263,9 +263,21 @@ test...
 使用`devtool: 'eval-source-map' ` 放在配置文件中.
 需要注意的是, `css?sourceMap` 对于css ,只需要给css-laoder加
 
+<br /><br />
+## #7
+> fork webpack-test-2
+
+这个分支的主要目的:
+
+
+```
+测试一下 chunk 方法的jquery 而不对第三方插件使用全局依赖. 这里会用到ES6 所以需要用到babel.
+```
+
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br />
 ## vscode 快捷键收集
+
 ```
 快捷键
 
