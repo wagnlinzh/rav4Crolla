@@ -1,22 +1,34 @@
 console.log("test2 online changes :)");
-var Style1=require('./css/style.css');
-var mainStyle=require('./css/main.css');
+require('./css/style.css');
+require('./css/main.css');
 
 // var $=require('jquery');
 
 // var ha=require("./hah.js");
 // ha();
-require("./js/fixJquery.js");
+
+
+// require("./js/fixJquery.js");
 // require("./js/jquery.mCustomScrollbar.min.js");
 // require('./js/jquery.SuperSlide.js');
-var wanglinzhizhiTest=require('./js/wl.js');
-wanglinzhizhiTest();
+
+// var wanglinzhizhiTest=require('./js/wl.js');
+// wanglinzhizhiTest();
 
 import $ from 'jquery';
-import 'imports?jQuery=jquery!./js/jquery.mCustomScrollbar.min.js';
-import 'imports?jQuery=jquery!./js/jquery.SuperSlide.js';
+import a from 'imports?jQuery=jquery!./js/jquery.mCustomScrollbar.min.js';
+import b from  'imports?jQuery=jquery!./js/jquery.SuperSlide.js';
+import CCC from 'imports?jQuery=jquery!./hah.js'
 
+import  wanglinzhizhiTest from 'imports?jQuery=jquery!./js/wl.js';
 
+wanglinzhizhiTest();
+a();
+b();
+CCC();
+
+// var ha=require("./hah.js");
+// ha();
 
 
 
