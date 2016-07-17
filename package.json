@@ -31,6 +31,7 @@
     "html-webpack-plugin": "^2.22.0",
     "imports-loader": "^0.6.5",
     "jquery": "^1.12.4",
+    "open-browser-webpack-plugin": "0.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1"

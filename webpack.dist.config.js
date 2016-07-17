@@ -5,7 +5,6 @@ var ROOT_PATH = path.resolve(__dirname);
 var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
-
 // var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 
 module.exports = {
@@ -29,15 +28,15 @@ module.exports = {
   output: {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
-    filename: '[name].js',
+    filename: '[name].[hash].js',
     publicPath: "./dist/"
   },
 
   //enable dev source map
   devtool: 'eval-source-map',
   //enable dev server
-
-  devServer: {
+   
+   devServer: {
     historyApiFallback: true,
     hot: true,
     inline: true,
@@ -108,6 +107,7 @@ module.exports = {
     new OpenBrowserPlugin({
       url: 'http://localhost:8080/dist/ha.html'
     })
+
   ],
 
 

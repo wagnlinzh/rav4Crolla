@@ -1,3 +1,33 @@
+# webpack 
+
+## Log July 17
+
+
+关于`webpack-dev-server` 因为测试目录变了,所以对应的localhost的地址也要变呀
+
+变到了哪儿呢?
+
+以这个项目为例,
+
+变到了 
+
+```
+new OpenBrowserPlugin({
+      url: 'http://localhost:8080/dist/ha.html'
+    })
+
+    需要注意的另外一个地上是publicPath :
+```
+
+
+
+哦对了,这个插件很爽,用起来,不需要手动的去输入地址了. `open-browser-webpack-plugin`这个插件
+
+
+
+
+
+<br /><br /><br /><br />
 # webpack test1
 
 
