@@ -21,6 +21,7 @@ new OpenBrowserPlugin({
 
 
 
+
 哦对了,这个插件很爽,用起来,不需要手动的去输入地址了. `open-browser-webpack-plugin`这个插件
 
 
