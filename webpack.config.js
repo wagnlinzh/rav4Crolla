@@ -11,12 +11,12 @@ module.exports = {
   entry:
   {
     bundle: './main.js', //这个里面主要放的是各种css 等样式
-    // jquery:'./js/jquery1.8.3.min.js',
+    jquery:'./js/jquery1.8.3.min.js',
     // supperSlide:'./js/jquery.SuperSlide.js',
     // mScrollbar:'./js/jquery.mCustomScrollbar.min.js',
     regCom: './js/reg_com.js',
     common: './js/common.js',
-    jquery:['jquery'],
+    // jquery:['jquery'],
 
     //  wl:'./js/wl.js', 
     //  has:'./hah.js',

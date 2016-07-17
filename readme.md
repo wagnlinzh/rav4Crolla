@@ -22,9 +22,11 @@
 
 
 
+```
+vscode 另一个比较可爱的 地方, git 对于git 可以直接修改的东西 写commit message 然后按 ctrl+enter 完成commit 操作. 真特么太油菜了.(@_@)
+```
 
-
-
+![]("./codegit.png");
 
 
 
