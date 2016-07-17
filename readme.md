@@ -1,3 +1,12 @@
+# log July 17
+
+- step 1 能用
+
+- step 2 优化 > webpack 的优化
+
+
+<br /><br /><br /><br />
+
 # Log July 16
 
 ## #1
@@ -12,12 +21,7 @@
 
 
 
-<br /><br /><br /><br />
-# log July 17
 
-- step 1 能用
-
-- step 2 优化 > webpack 的优化
 
 
 
