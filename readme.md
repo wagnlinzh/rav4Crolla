@@ -12,6 +12,12 @@
 
 
 
+# log July 17
+
+- step 1 能用
+
+- step 2 优化 > webpack 的优化
+
 
 
 

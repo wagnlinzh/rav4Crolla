@@ -16,6 +16,7 @@ module.exports = {
     // mScrollbar:'./js/jquery.mCustomScrollbar.min.js',
     regCom: './js/reg_com.js',
     common: './js/common.js',
+    jquery:['jquery'],
 
     //  wl:'./js/wl.js', 
     //  has:'./hah.js',
@@ -27,7 +28,7 @@ module.exports = {
   output: {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
-    filename: '[name].[hash].js',
+    filename: '[name].js',
     // publicPath: "./images"
   },
 
@@ -67,14 +68,14 @@ module.exports = {
 
       },
 
-      // {
-      //   test: /\.jsx?$/,
-      //   loader: 'babel',
-      //   // include: APP_PATH,
-      //   query: {
-      //     presets: ['es2015'],
-      //   }
-      // },
+      {
+        test: /\.jsx?$/,
+        loader: 'babel',
+        exclude: 'node_modules',        
+        query: {
+          presets: ['es2015'],
+        }
+      },
 
       {
         test: /\.html$/,
@@ -87,13 +88,13 @@ module.exports = {
   plugins: [
 
     //provide $, jQuery and window.jQuery to every script
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery",
-      "window.jQuery": "jquery"
-    }),
+    // new webpack.ProvidePlugin({
+    //   $: "jquery",
+    //   jQuery: "jquery",
+    //   "window.jQuery": "jquery"
+    // }),
 
-    // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
+    new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
     //  new CommonsChunkPlugin('jquery.js'),
 
     new HtmlwebpackPlugin({

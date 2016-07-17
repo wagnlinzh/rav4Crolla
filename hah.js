@@ -1,5 +1,6 @@
 function A(){
 $(".main_4").css("display","none");
+
 // var main4=document.querySelector(".main_4");
 // main4.style.display="none";
 }
