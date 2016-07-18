@@ -23,7 +23,8 @@
 
 
 ```
-使用了插件`webpack.optimize.UglifyJsPlugin` 效果显著 压缩到了 1.35M-> 1.32M
+使用了插件`webpack.optimize.UglifyJsPlugin` 效果显著 压缩到了 1.35M-> 1.32M.
+特么还报错@_@
 
 -______________________-
 
