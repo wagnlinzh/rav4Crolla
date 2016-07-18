@@ -32,7 +32,7 @@ module.exports = {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
     filename: '[name].js',
-    publicPath: "http://localhost:8080/dist/"
+    publicPath: "file:///C:/Users/wanglin5.TECH/Desktop/gogs-repos/rav4Crolla/dist/"
   },
 
   //enable dev source map
