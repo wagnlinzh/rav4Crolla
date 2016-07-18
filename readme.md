@@ -134,7 +134,21 @@ UglifyJsPlugin 对 html 标签的`<`, `>`  敏感,
 
 ```
 -______________-
+
+
+   //出口
+  output: {
+    path: DIST_PATH, // 输出文件的保存路径
+    // filename: 'bundle.js', // 输出文件的名称
+    filename: '[name].js',
+    publicPath: "http://localhost:8080/dist/"
+  },
+
 ```
+
+
+
+
 
 
 
