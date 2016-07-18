@@ -109,7 +109,7 @@ module.exports = {
     //  new CommonsChunkPlugin('jquery.js'),
 
     new HtmlwebpackPlugin({
-      title: 'Ha.html html-webpack-plugin',
+      title: 'Ha.html-webpack-plugin',
       filename: 'ha.html',
       template: "./index.html",
       inject: 'body',

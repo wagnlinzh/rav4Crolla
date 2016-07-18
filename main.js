@@ -4,6 +4,7 @@ require('./css/main.css');
 
 // var ha=require("./hah.js");
 // ha();
+require("./js/mousewheel.js");
 require("./js/fixJquery.js");
 require("./js/jquery.mCustomScrollbar.min.js");
 require('./js/jquery.SuperSlide.js');
