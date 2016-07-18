@@ -1,5 +1,7 @@
 # webpack 
-
+<br />
+<br />
+单入口, 将多个入口合在了一个入口中.
 
 
 
@@ -220,8 +222,7 @@ UglifyJsPlugin 对 html 标签的`<`, `>`  敏感,
 ### 关于dev 版本 和 dist 版本 最终上线 
 
 - 调试 也就是dev的时候, 最好不用hash.最终上线版本做hash
-
-
+- output 的 publicPath 最后的时候一定要改为CDN的地址.
 
 
 
