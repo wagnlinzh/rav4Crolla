@@ -42,6 +42,7 @@ module.exports = {
     hot: true,
     inline: true,
     progress: true,
+    contentBase:'./dist'
   },
 
   //引入模块
@@ -86,6 +87,13 @@ module.exports = {
     ]
   },
 
+  resolve:{
+    extensions:["","js","jsx",".es6","css","scss","png","jpeg","gif","jpg"],
+    alias:{
+
+    }
+  },
+
   plugins: [
 
     //provide $, jQuery and window.jQuery to every script
@@ -102,7 +110,9 @@ module.exports = {
       title: 'Ha.html html-webpack-plugin',
       filename: 'ha.html',
       template: "./index.html",
-      inject: 'body'
+      inject: 'body',
+      // chunks:[],
+      excludeChunks:['dev-helper'],
     }),
 
     new OpenBrowserPlugin({

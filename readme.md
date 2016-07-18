@@ -12,6 +12,13 @@
 
 
 <br /><br />
+## Log July 18
+
+1. 优化bundle.js
+2. 标准树结构
+
+
+<br /><br />
 ## Log July 17
 
 
