@@ -23,8 +23,8 @@ module.exports = {
 
     //  wl:'./js/wl.js', 
     //  has:'./hah.js',
+    // market:'./common/base_market.js', 
     // dealer:'./common/dealer.js',
-    // market:'./common/base_market.js'
   },
 
   //出口
@@ -32,7 +32,7 @@ module.exports = {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
     filename: '[name].js',
-    // publicPath: "./dist/"
+    publicPath: "http://localhost:8080/dist/"
   },
 
   //enable dev source map
@@ -69,7 +69,6 @@ module.exports = {
         test: /\.(png|jpg|gif|jpeg)$/,
         loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
         exclude: 'node_modules'
-
       },
 
       // {
@@ -106,6 +105,7 @@ module.exports = {
     }),
 
     // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
+    
     //  new CommonsChunkPlugin('jquery.js'),
 
     new HtmlwebpackPlugin({
