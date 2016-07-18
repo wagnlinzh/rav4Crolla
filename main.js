@@ -1,7 +1,6 @@
 require('./css/style.css');
 require('./css/main.css');
 
-// var $=require('jquery');
 
 // var ha=require("./hah.js");
 // ha();

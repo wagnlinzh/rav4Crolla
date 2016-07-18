@@ -5,6 +5,7 @@ var ROOT_PATH = path.resolve(__dirname);
 var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 // var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 
@@ -117,6 +118,12 @@ module.exports = {
 
     new OpenBrowserPlugin({
       url: 'http://localhost:8080/dist/ha.html'
+    }),
+    
+    new uglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
     })
   ],
 

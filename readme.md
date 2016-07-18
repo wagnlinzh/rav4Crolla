@@ -17,6 +17,18 @@
 1. 优化bundle.js
 2. 标准树结构
 
+按照alloyTeam 的方法实现了一遍. 恩 优化了 把原来的 1.2MB -> 变成了1.35MB 
+
+@_@
+
+
+```
+使用了插件`webpack.optimize.UglifyJsPlugin` 效果显著 压缩到了 1.35M-> 1.32M
+
+-______________________-
+
+```
+
 
 <br /><br />
 ## Log July 17
