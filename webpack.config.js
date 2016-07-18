@@ -30,7 +30,7 @@ module.exports = {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
     filename: '[name].js',
-    publicPath: "./dist/"
+    // publicPath: "./dist/"
   },
 
   //enable dev source map

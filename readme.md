@@ -6,6 +6,10 @@
 
 额.webpack-test-2 卒
 
+现阶段的问题 . -> bundle.js 1.2MB
+
+(T_T)
+
 
 <br /><br />
 ## Log July 17
