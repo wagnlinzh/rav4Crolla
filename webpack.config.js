@@ -5,7 +5,8 @@ var ROOT_PATH = path.resolve(__dirname);
 var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
-// var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+
 
 // var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 
@@ -43,7 +44,7 @@ module.exports = {
     hot: true,
     inline: true,
     progress: true,
-    contentBase:'./dist'
+    contentBase: './dist'
   },
 
   //引入模块
@@ -60,13 +61,13 @@ module.exports = {
       {
         test: /\.css$/,
         // loader: 'style!css',
-        loaders: ['style', 'css??sourceMap'],
+        loaders: ['style', 'css?sourceMap'],
         exclude: 'node_modules'
       },
 
       {
         test: /\.(png|jpg|gif|jpeg)$/,
-        loader: 'url-loader?limit=81920&name=./images/[hash].[ext]',
+        loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
         exclude: 'node_modules'
 
       },
@@ -91,13 +92,13 @@ module.exports = {
   // resolve:{
   //   extensions:["","js","jsx",".es6","css","scss","png","jpeg","gif","jpg"],
   //   alias:{
-
   //   }
   // },
 
   plugins: [
 
     //provide $, jQuery and window.jQuery to every script
+
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
@@ -112,21 +113,17 @@ module.exports = {
       filename: 'ha.html',
       template: "./index.html",
       inject: 'body',
-      // chunks:[],
-      excludeChunks:['dev-helper'],
     }),
 
+    
     new OpenBrowserPlugin({
-      url: 'http://localhost:8080/dist/ha.html'
+      url: 'http://localhost:8080/dist/ha.html',
     }),
 
-    // new uglifyJsPlugin({
-    //   compress: {
-    //     warnings: false
-    //   }
-    // })
+    new uglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
   ],
-
-
-
 };
