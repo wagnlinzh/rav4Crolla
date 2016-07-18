@@ -18,8 +18,8 @@ module.exports = {
     // jquery:'./js/jquery1.8.3.min.js',
     // supperSlide:'./js/jquery.SuperSlide.js',
     // mScrollbar:'./js/jquery.mCustomScrollbar.min.js',
-    regCom: './js/reg_com.js',
-    common: './js/common.js',
+    // regCom: './js/reg_com.js',
+    // common: './js/common.js',
 
     //  wl:'./js/wl.js', 
     //  has:'./hah.js',
@@ -67,7 +67,7 @@ module.exports = {
 
       {
         test: /\.(png|jpg|gif|jpeg)$/,
-        loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
+        loader: 'url-loader?limit=81920&name=/images/[hash].[ext]',
         exclude: 'node_modules'
       },
 

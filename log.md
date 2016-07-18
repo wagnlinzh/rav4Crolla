@@ -25,7 +25,7 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 2. next to pack -> js
 
-
+done
 
 
 
@@ -68,3 +68,5 @@ Tips: 时间点不用记录,因为每次push,每次commit系统都有时间记�
 
 
 ## 该不该用模板呢? 怎么用模板?
+
+done

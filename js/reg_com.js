@@ -1,4 +1,6 @@
 
+function regCom(){
+
 
 
 $(function () {
@@ -72,3 +74,7 @@ $(function () {
     });
 });
     
+}
+
+
+module.exports=regCom;

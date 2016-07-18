@@ -1,6 +1,34 @@
 # webpack 
 
 
+
+
+<br />
+<br />
+## 关于经销商之间的传参
+
+done 
+
+<br />
+<br />
+
+详见代码:
+
+
+```JavaScript
+
+var JSonData=require('./common/dealer.js');
+
+var baseMarket=require('./common/base_market.js');
+
+baseMarket(JSonData);
+
+
+//需要注意的是,baseMarket 需要来自dealer的数据. 
+```
+
+
+
 <br /><br />
 ## branch webpack-test-3
 
@@ -203,6 +231,8 @@ UglifyJsPlugin 对 html 标签的`<`, `>`  敏感,
 
 
 ###　突然想到一个问题，　如果用CSS Module 那么对于原来是html的页面的能不能实现呢?
+
+
 
 
 

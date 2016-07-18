@@ -1,3 +1,5 @@
+function commonData(){
+
 
 
 
@@ -109,3 +111,8 @@ $(document).ready(function(e) {
   });
 
 });
+
+}
+
+
+module.exports=commonData;
