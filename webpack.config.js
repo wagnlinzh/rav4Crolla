@@ -5,7 +5,7 @@ var ROOT_PATH = path.resolve(__dirname);
 var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
-// var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 
 // var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
@@ -105,8 +105,8 @@ module.exports = {
     }),
 
     // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
-    
-    //  new CommonsChunkPlugin('jquery.js'),
+
+    // new CommonsChunkPlugin('jquery.js'),
 
     new HtmlwebpackPlugin({
       title: 'Ha.html-webpack-plugin',
@@ -115,7 +115,7 @@ module.exports = {
       inject: 'body',
     }),
 
-    
+
     new OpenBrowserPlugin({
       url: 'http://localhost:8080/dist/ha.html',
     }),
