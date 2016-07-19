@@ -112,6 +112,7 @@ module.exports = {
 
     new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
 
+
     // new CommonsChunkPlugin('jquery.js'),
 
     new HtmlwebpackPlugin({
