@@ -25,6 +25,7 @@ module.exports = {
     //  has:'./hah.js',
     // market:'./common/base_market.js', 
     // dealer:'./common/dealer.js',
+    jquery:'jquery'
   },
 
   //出口
@@ -96,15 +97,20 @@ module.exports = {
 
   plugins: [
 
-    //provide $, jQuery and window.jQuery to every script
+    new uglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
 
+    //provide $, jQuery and window.jQuery to every script
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
       "window.jQuery": "jquery"
     }),
 
-    // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
+    new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
 
     // new CommonsChunkPlugin('jquery.js'),
 
@@ -120,10 +126,12 @@ module.exports = {
       url: 'http://localhost:8080/dist/ha.html',
     }),
 
-    // new uglifyJsPlugin({
-    //   compress: {
-    //     warnings: false
-    //   }
-    // }),
+    new uglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
+
   ],
+  
 };
