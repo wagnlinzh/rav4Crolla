@@ -1,10 +1,12 @@
+// 对于dist 目录,的原则是, 不需要的插件,尽可能的去掉.
+
 var path = require('path');
 var webpack = require('webpack');
 
 var ROOT_PATH = path.resolve(__dirname);
 var DIST_PATH = path.resolve(ROOT_PATH, 'dist');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
-var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+// var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 // var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
 
 module.exports = {
@@ -15,8 +17,8 @@ module.exports = {
     // jquery:'./js/jquery1.8.3.min.js',
     // supperSlide:'./js/jquery.SuperSlide.js',
     // mScrollbar:'./js/jquery.mCustomScrollbar.min.js',
-    regCom: './js/reg_com.js',
-    common: './js/common.js',
+    // regCom: './js/reg_com.js',
+    // common: './js/common.js',
 
     //  wl:'./js/wl.js', 
     //  has:'./hah.js',
@@ -33,15 +35,15 @@ module.exports = {
   },
 
   //enable dev source map
-  devtool: 'eval-source-map',
+  // devtool: 'eval-source-map',
   //enable dev server
    
-   devServer: {
-    historyApiFallback: true,
-    hot: true,
-    inline: true,
-    progress: true,
-  },
+  //  devServer: {
+  //   historyApiFallback: true,
+  //   hot: true,
+  //   inline: true,
+  //   progress: true,
+  // },
 
   //引入模块
   module: {
@@ -57,7 +59,7 @@ module.exports = {
       {
         test: /\.css$/,
         // loader: 'style!css',
-        loaders: ['style', 'css??sourceMap'],
+        loaders: ['style', 'css'],
         exclude: 'node_modules'
       },
 
@@ -77,11 +79,7 @@ module.exports = {
       //   }
       // },
 
-      {
-        test: /\.html$/,
-        loader: 'html-loader',
-        exclude: 'node_modules'
-      }
+ 
     ]
   },
 
@@ -104,9 +102,9 @@ module.exports = {
       inject: 'body'
     }),
 
-    new OpenBrowserPlugin({
-      url: 'http://localhost:8080/dist/ha.html'
-    })
+    // new OpenBrowserPlugin({
+    //   url: 'http://localhost:8080/dist/ha.html'
+    // })
 
   ],
 

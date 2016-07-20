@@ -3,7 +3,19 @@
 <br />
 <br />
 
+## log July 20 branch webpack-test-4
 
+对于webpack.dist.config.js的原则是, 不需要的插件,尽可能的去掉.
+
+```
+bundle.js 从1.7MB -> 612KB
+```
+
+这是进步啊~T_T
+
+
+<br />
+<br />
 ## branch webpack-test-4
 <br />
 <br />
