@@ -71,20 +71,6 @@ module.exports = {
         exclude: 'node_modules'
       },
 
-      // {
-      //   test: /\.jsx?$/,
-      //   loader: 'babel',
-      //   // include: APP_PATH,
-      //   query: {
-      //     presets: ['es2015'],
-      //   }
-      // },
-
-      {
-        test: /\.html$/,
-        loader: 'html-loader',
-        exclude: 'node_modules'
-      }
     ]
   },
 

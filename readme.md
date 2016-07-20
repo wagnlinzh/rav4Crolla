@@ -13,6 +13,13 @@ bundle.js 从1.7MB -> 612KB
 
 这是进步啊~T_T
 
+```
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+```
+
+bundle.js
+
+612KB -> 362KB
 
 <br />
 <br />
