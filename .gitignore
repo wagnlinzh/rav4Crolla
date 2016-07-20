@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 node_modules
 *.vscode
 dist
+npm-debug.log
 
 
 # Windows shortcuts

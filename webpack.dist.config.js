@@ -12,8 +12,7 @@ var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 module.exports = {
   //入口
-  entry:
-  {
+  entry: {
     bundle: './main.js', //这个里面主要放的是各种css 等样式
   },
 
@@ -29,36 +28,63 @@ module.exports = {
   //引入模块
   module: {
 
-    loaders: [
-      {
-        test: /\.css$/,
-        loaders: ['style', 'css'],
-        exclude: 'node_modules'
-      },
-
-      {
-        test: /\.(png|jpg|gif|jpeg)$/,
-        loader: 'url-loader?limit=81920&name=./images/[hash].[ext]',
-        exclude: 'node_modules'
-      },
-    
-    {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-            'file?hash=sha512&digest=hex&name=./images/[hash].[ext]',
-            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-        ],
-        exclude: 'node_modules'
+    loaders: [{
+      test: /\.css$/,
+      loaders: ['style', 'css'],
+      exclude: 'node_modules'
     },
 
+
+
+      // {
+      //   test: /\.(jpe?g|png|gif|svg)$/i,
+      //   loaders: [
+      //     'file?name=./images/[hash].[ext]',
+      //     'image-webpack?bypassOnDebug&optimizationLevel=2&interlaced=false'
+      //   ],
+      //   exclude: 'node_modules'
+      // },
+
       {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
+        exclude: 'node_modules'
+      },
+
+      // {
+      //   test: /\.(jpe?g|png|gif|svg)$/i,
+      //   loader: 'url?limit=10000&name=./images/[hash].[ext]!img?minimize',
+      //   exclude: 'node_modules'
+
+      // },
+       {
         test: /\.html$/,
         loader: 'html-loader',
         exclude: 'node_modules'
       },
 
+
     ]
   },
+
+  // imagemin: {
+  //   gifsicle: { interlaced: false },
+  //   jpegtran: {
+  //     progressive: true,
+  //     arithmetic: false
+  //   },
+  //   optipng: { optimizationLevel: 7 },
+  //   pngquant: {
+  //     floyd: 0.5,
+  //     speed: 2
+  //   },
+  //   svgo: {
+  //     plugins: [
+  //       { removeTitle: true },
+  //       { convertPathData: false }
+  //     ]
+  //   }
+  // },
 
   plugins: [
 
