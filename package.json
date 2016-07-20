@@ -7,7 +7,7 @@
     "test": "webpack",
     "start": "webpack-dev-server --hot --inline",
     "aa": "webpack --progress --profile --colors --config webpack.src.config.js",
-    "bb": "webpack --progress --profile --colors --config webpack.dist.config.js"
+    "ab": "webpack --progress --profile --colors --config webpack.dist.config.js"
   },
   "repository": {
     "type": "git",

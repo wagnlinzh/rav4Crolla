@@ -22,7 +22,7 @@ module.exports = {
     path: DIST_PATH, // 输出文件的保存路径
     // filename: 'bundle.js', // 输出文件的名称
     filename: '[name].[hash].js',
-    publicPath: "./dist/"
+    // publicPath: "./dist/"
   },
 
 
@@ -39,6 +39,11 @@ module.exports = {
       {
         test: /\.(png|jpg|gif|jpeg)$/,
         loader: 'url-loader?limit=81920&name=./images/[hash].[ext]',
+        exclude: 'node_modules'
+      },
+      {
+        test: /\.html$/,
+        loader: 'html-loader',
         exclude: 'node_modules'
       },
 
