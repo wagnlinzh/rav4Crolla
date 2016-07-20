@@ -41,6 +41,16 @@ module.exports = {
         loader: 'url-loader?limit=81920&name=./images/[hash].[ext]',
         exclude: 'node_modules'
       },
+    
+    {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+            'file?hash=sha512&digest=hex&name=./images/[hash].[ext]',
+            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ],
+        exclude: 'node_modules'
+    },
+
       {
         test: /\.html$/,
         loader: 'html-loader',

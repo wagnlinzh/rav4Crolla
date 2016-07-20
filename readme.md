@@ -30,6 +30,14 @@ bundle.js
 - 代码压缩
 - 代码分割
 
+  
+<br />
+<br />
+
+
+```
+bundle.js 362KB-> 239KB
+```
 
 <br />
 <br />
