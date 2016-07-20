@@ -1,4 +1,5 @@
 // 对于dist 目录,的原则是, 不需要的插件,尽可能的去掉.
+//todo : 图片压缩的 解决方法 亦或是,现在已经是最优的情况了?
 
 var path = require('path');
 var webpack = require('webpack');
