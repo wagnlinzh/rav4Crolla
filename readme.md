@@ -47,6 +47,8 @@ include:'./src',
 不要把所有的 都写成 include :'./src'
 
 
+
+
 <br />
 <br />
 
@@ -66,11 +68,13 @@ var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 bundle.js
 
+```
 612KB -> 362KB
+```
 
-所谓的压缩,是针对dist 版本的 ,需要区别dev版本
+**所谓的压缩,是针对dist 版本的 ,需要区别dev版本**
 
-压缩原则:
+**dist压缩原则:**
 
 - 去除不必要的插件 `HotModuleReplacementPlugin`
 - 提取第三方库
