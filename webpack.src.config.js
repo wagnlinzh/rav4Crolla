@@ -71,6 +71,11 @@ module.exports = {
         exclude: 'node_modules'
       },
 
+      {
+        test: /\.html$/,
+        loader: 'html-loader',
+        exclude: 'node_modules'
+      }
     ]
   },
 
@@ -97,7 +102,7 @@ module.exports = {
     new HtmlwebpackPlugin({
       title: 'Ha.html-webpack-plugin',
       filename: 'ha.html',
-      template: "./index.html",
+      template: "./src/index.html",
       inject: 'body',
     }),
 

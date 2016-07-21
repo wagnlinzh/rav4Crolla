@@ -32,7 +32,8 @@ module.exports = {
     loaders: [{
       test: /\.css$/,
       loaders: ['style', 'css'],
-      exclude: 'node_modules'
+      exclude: 'node_modules',
+      // include: __dirname + '/src',
     },
 
 
@@ -49,7 +50,8 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
-        exclude: 'node_modules'
+        // exclude: 'node_modules'
+        include: __dirname + '/src',
       },
 
       // {
@@ -58,10 +60,11 @@ module.exports = {
       //   exclude: 'node_modules'
 
       // },
-       {
+      {
         test: /\.html$/,
         loader: 'html-loader',
-        exclude: 'node_modules'
+        // exclude: 'node_modules'
+        include:'./src',
       },
 
 
@@ -106,7 +109,7 @@ module.exports = {
     new HtmlwebpackPlugin({
       title: 'Ha.html html-webpack-plugin',
       filename: 'ha.html',
-      template: "./index.html",
+      template: "./src/index.html",
       inject: 'body'
     }),
 
