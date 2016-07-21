@@ -1,27 +1,27 @@
-require('./css/style.css');
-require('./css/main.css');
+require('./src/css/style.css');
+require('./src/css/main.css');
 
 
 // var ha=require("./hah.js");
 // ha();
 // require("./js/");
-require("./js/mousewheel.js");
-require("./js/fixJquery.js");
-require("./js/jquery.mCustomScrollbar.min.js");
-require('./js/jquery.SuperSlide.js');
+require("./src/js/mousewheel.js");
+require("./src/js/fixJquery.js");
+require("./src/js/jquery.mCustomScrollbar.min.js");
+require('./src/js/jquery.SuperSlide.js');
 
 
-var commonData=require("./js/common.js");
+var commonData=require("./src/js/common.js");
 commonData();
 
-var regCom=require("./js/reg_com.js");
+var regCom=require("./src/js/reg_com.js");
 regCom();
 
-var JSonData=require('./common/dealer.js');
-var baseMarket=require('./common/base_market.js');
+var JSonData=require('./src/common/dealer.js');
+var baseMarket=require('./src/common/base_market.js');
 
 baseMarket(JSonData);
-var wanglinzhizhiTest=require('./js/wl.js');
+var wanglinzhizhiTest=require('./src/js/wl.js');
 
 wanglinzhizhiTest();
 

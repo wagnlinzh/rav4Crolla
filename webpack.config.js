@@ -24,7 +24,7 @@ module.exports = {
     //  has:'./hah.js',
     // market:'./common/base_market.js', 
     // dealer:'./common/dealer.js',
-    jquery:'jquery'
+    // jquery:'jquery'
   },
 
   //出口
@@ -71,14 +71,7 @@ module.exports = {
         exclude: 'node_modules'
       },
 
-      // {
-      //   test: /\.jsx?$/,
-      //   loader: 'babel',
-      //   // include: APP_PATH,
-      //   query: {
-      //     presets: ['es2015'],
-      //   }
-      // },
+
 
       {
         test: /\.html$/,
@@ -96,11 +89,11 @@ module.exports = {
 
   plugins: [
 
-    new uglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
+    // new uglifyJsPlugin({
+    //   compress: {
+    //     warnings: false
+    //   }
+    // }),
 
     //provide $, jQuery and window.jQuery to every script
     new webpack.ProvidePlugin({
@@ -109,7 +102,7 @@ module.exports = {
       "window.jQuery": "jquery"
     }),
 
-    new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
+    // new webpack.optimize.CommonsChunkPlugin('jquery', 'jquery.js'),
 
 
     // new CommonsChunkPlugin('jquery.js'),
@@ -117,7 +110,7 @@ module.exports = {
     new HtmlwebpackPlugin({
       title: 'Ha.html-webpack-plugin',
       filename: 'ha.html',
-      template: "./index.html",
+      template: "./src/index.html",
       inject: 'body',
     }),
 
@@ -132,11 +125,11 @@ module.exports = {
     }),
 
    
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    })
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compress: {
+    //     warnings: false
+    //   }
+    // })
   
   ],
   
