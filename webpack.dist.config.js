@@ -50,8 +50,8 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
-        // exclude: 'node_modules'
-        include: __dirname + '/src',
+        exclude: 'node_modules'
+        // include: __dirname + '/src',
       },
 
       // {

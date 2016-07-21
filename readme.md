@@ -5,6 +5,14 @@
 
 ## Log July 21 bitch..branch. webpack-test-6
 
+<br />
+<br />
+
+## #坑2
+ 
+```
+好吧, 图片也不能使用 `include:"./src"` ,需要用排除掉 node_module 就好了 .T_T
+```
 
 <br />
 <br />
