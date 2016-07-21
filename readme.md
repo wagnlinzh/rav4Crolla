@@ -14,8 +14,8 @@
 那么,压缩图片的 事情谁来做呢? 它们
 
 ```
-- img-loader :https://github.com/thetalecrafter/img-loader
-- image-loader :https://github.com/tcoopman/image-webpack-loader
+- img-loader:  https://github.com/thetalecrafter/img-loader
+- image-loader:  https://github.com/tcoopman/image-webpack-loader
 ```
 
 <br />
