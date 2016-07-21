@@ -7,6 +7,21 @@
 <br />
 <br />
 
+## 关于图片的压缩问题.
+
+首先, 透过loader file-loader url-loader 是不能压缩图片的.他们能做的是 把小于特定值的图片base64化.而没有做压缩图片的事情.
+
+那么,压缩图片的 事情谁来做呢? 它们
+
+```
+- img-loader :https://github.com/thetalecrafter/img-loader
+- image-loader :https://github.com/tcoopman/image-webpack-loader
+```
+
+<br />
+<br />
+<br />
+
 ## #坑3
 
 ```
@@ -14,6 +29,7 @@
 因为会用 node_module 里面的东西.
 ```
 
+<br />
 <br />
 <br />
 
