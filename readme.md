@@ -29,20 +29,34 @@
 <br />
 <br />
 
+1.07M
+
+```
+{
+   test: /\.(jpe?g|png|gif|svg)$/i,
+   loaders: [
+      'url?limit=41960&name=./images/[hash].[ext]',
+      'img-loader?minimize'
+    ],
+    exclude: 'node_modules'
+},
+```
+
+
 
 ```
 header 2.31M-> 1.07M
 ```
 
 ```
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-          'url?limit=10000&name=./images/[hash].[ext]',
-          'img-loader?optimizationLevel=5&progressive=true'
-          ],
-        exclude: 'node_modules'
-      },
+{
+   test: /\.(jpe?g|png|gif|svg)$/i,
+   loaders: [
+      'url?limit=10000&name=./images/[hash].[ext]',
+      'img-loader?optimizationLevel=5&progressive=true'
+    ],
+    exclude: 'node_modules'
+},
 
 ```
 
