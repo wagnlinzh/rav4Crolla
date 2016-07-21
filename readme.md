@@ -2,11 +2,13 @@
 
 <br />
 <br />
-## Log July 21 bitch webpack-test-4
+
+## Log July 21 bitch webpack-test-6
 
 
 <br />
 <br />
+
 ## log July 20 branch webpack-test-4
 
 对于webpack.dist.config.js的原则是, 不需要的插件,尽可能的去掉.
@@ -45,7 +47,9 @@ bundle.js 362KB-> 239KB
 
 <br />
 <br />
+
 ## branch webpack-test-4
+
 <br />
 <br />
 
@@ -56,6 +60,7 @@ bundle.js 362KB-> 239KB
 
 <br />
 <br />
+
 ## log July 19
 
 **webpack的优化**
@@ -73,6 +78,7 @@ bundle.js 362KB-> 239KB
 
 <br />
 <br />
+
 ## 关于经销商之间的传参
 
 done 
