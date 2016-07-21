@@ -30,11 +30,11 @@ module.exports = {
   module: {
 
     loaders: [{
-      test: /\.css$/,
-      loaders: ['style', 'css'],
-      exclude: 'node_modules',
-      // include: __dirname + '/src',
-    },
+        test: /\.css$/,
+        loaders: ['style', 'css'],
+        exclude: 'node_modules',
+        // include: __dirname + '/src',
+      },
 
 
 
@@ -51,7 +51,7 @@ module.exports = {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loader: 'url-loader?limit=8192&name=./images/[hash].[ext]',
         exclude: 'node_modules'
-        // include: __dirname + '/src',
+          // include: __dirname + '/src',
       },
 
       // {
@@ -60,13 +60,14 @@ module.exports = {
       //   exclude: 'node_modules'
 
       // },
+
+
       {
         test: /\.html$/,
         loader: 'html-loader',
-        // exclude: 'node_modules'
-        include:'./src',
+        exclude: 'node_modules'
+        // include: './src',
       },
-
 
     ]
   },

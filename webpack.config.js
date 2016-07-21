@@ -54,6 +54,7 @@ module.exports = {
     //     {
     //            test: /\.jsx?$/,
     //            loader: 'jshint-loader'
+    // include:"./src"
     //     }
     // ],
 
@@ -74,7 +75,8 @@ module.exports = {
       {
         test: /\.html$/,
         loader: 'html-loader',
-        exclude: 'node_modules'
+        // exclude: 'node_modules'
+        include: './src',
       }
     ]
   },
@@ -122,13 +124,13 @@ module.exports = {
       url: 'http://localhost:8080/dist/ha.html',
     }),
 
-   
+
     // new webpack.optimize.UglifyJsPlugin({
     //   compress: {
     //     warnings: false
     //   }
     // })
-  
+
   ],
-  
+
 };

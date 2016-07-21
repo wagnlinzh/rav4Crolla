@@ -2,9 +2,8 @@ require('./src/css/style.css');
 require('./src/css/main.css');
 
 
-// var ha=require("./hah.js");
+// var ha=require("./src/js/hah.js");
 // ha();
-// require("./js/");
 require("./src/js/mousewheel.js");
 require("./src/js/fixJquery.js");
 require("./src/js/jquery.mCustomScrollbar.min.js");

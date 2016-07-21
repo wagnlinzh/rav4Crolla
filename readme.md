@@ -4,6 +4,15 @@
 <br />
 
 ## Log July 21 bitch..branch. webpack-test-6
+<br />
+<br />
+
+## #坑3
+
+```
+恩,html-loader 也不能使用 inlclude方法 去排除. 
+因为会用 node_module 里面的东西.
+```
 
 <br />
 <br />
@@ -11,7 +20,11 @@
 ## #坑2
  
 ```
-好吧, 图片也不能使用 `include:"./src"` ,需要用排除掉 node_module 就好了 .T_T
+
+好吧, 图片也不能使用 `include:"./src"` ,需要用排除掉` node_module` 就好了 .T_T
+
+其实我好像觉得, node_module 是默认排除的. 
+
 ```
 
 <br />
