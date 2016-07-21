@@ -2,6 +2,10 @@
 
 <br />
 <br />
+## Log July 21 bitch webpack-test-4
+
+
+
 
 ## log July 20 branch webpack-test-4
 
@@ -56,9 +60,12 @@ bundle.js 362KB-> 239KB
 
 **webpack的优化**
 
+```
+
  刚研究i.mi.com的页面, 发现别人家的webpack的大小是0-20K.我的目前是1.7MB
 
  -______________________-
+```
 
 
  
@@ -90,7 +97,8 @@ baseMarket(JSonData);
 
 
 
-<br /><br />
+<br />
+<br />
 ## branch webpack-test-3
 
 额.webpack-test-2 卒
