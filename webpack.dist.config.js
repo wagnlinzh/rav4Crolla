@@ -61,7 +61,7 @@ module.exports = {
 
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'url?limit=10000&name=./images/[hash].[ext]!img?optimizationLevel=7',
+        loaders: ['url?limit=10000&name=./images/[hash].[ext]','img-loader?optimizationLevel=5&progressive=true'],
         exclude: 'node_modules'
       },
 
@@ -75,24 +75,24 @@ module.exports = {
     ]
   },
 
-  // imagemin: {
-  //   gifsicle: { interlaced: false },
-  //   jpegtran: {
-  //     progressive: true,
-  //     arithmetic: false
-  //   },
-  //   optipng: { optimizationLevel: 7 },
-  //   pngquant: {
-  //     floyd: 0.5,
-  //     speed: 2
-  //   },
-  //   svgo: {
-  //     plugins: [
-  //       { removeTitle: true },
-  //       { convertPathData: false }
-  //     ]
-  //   }
-  // },
+//  imagemin: {
+//     gifsicle: { interlaced: false },
+//     jpegtran: {
+//       progressive: true,
+//       arithmetic: false
+//     },
+//     optipng: { optimizationLevel: 5 },
+//     pngquant: {
+//       floyd: 0.5,
+//       speed: 2
+//     },
+//     svgo: {
+//       plugins: [
+//         { removeTitle: true },
+//         { convertPathData: false }
+//       ]
+//     }
+//   },
 
   plugins: [
 

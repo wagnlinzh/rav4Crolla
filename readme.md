@@ -29,11 +29,33 @@
 <br />
 <br />
 
+
+```
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: ['url?limit=10000&name=./images/[hash].[ext]','img-loader?optimizationLevel=5&progressive=true'],
+        exclude: 'node_modules'
+      },
+
+```
+
+**有个小坑, 注意,数组写法的loaders**
+
+**有个小坑, 注意,数组写法的loaders**
+
+**有个小坑, 注意,数组写法的loaders**
+
+
+<br />
+<br />
+
+
+打开方式不对?
+
 ```
   loader: 'url?limit=10000&name=./images/[hash].[ext]!img&optimizationLevel=7',
 
   header: 2.31M -> 1.12M
-
 
 ```
 
