@@ -18,8 +18,15 @@
 - image-loader:  https://github.com/tcoopman/image-webpack-loader
 ```
 
-可以压缩,但是现在的压缩效果....2.31M ->1.07M 
+<br />
+<br />
+<br />
 
+```
+可以压缩,但是现在的压缩效果....2.31M ->1.07M 
+```
+
+building...
 
 <br />
 <br />
