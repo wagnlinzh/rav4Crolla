@@ -36,8 +36,6 @@ module.exports = {
       // include: __dirname + '/src',
     },
 
-
-
       // {
       //   test: /\.(jpe?g|png|gif|svg)$/i,
       //   loaders: [
@@ -60,9 +58,10 @@ module.exports = {
       //   exclude: 'node_modules'
 
       // },
+
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'url?limit=10000&name=./images/[hash].[ext]!img?progressive=true',
+        loader: 'url?limit=10000&name=./images/[hash].[ext]!img?optimizationLevel=7',
         exclude: 'node_modules'
       },
 

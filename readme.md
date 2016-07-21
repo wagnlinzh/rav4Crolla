@@ -9,6 +9,57 @@
 
 ## 关于图片的压缩问题.
 
+这叫倒叙手法. 请倒着看
+
+<br />
+<br />
+
+怎么说呢? tingpng 压缩的效果是
+
+```
+2.31M-> 318KB
+
+别人家的压缩
+
+-______________________-
+
+```
+
+
+<br />
+<br />
+
+```
+  loader: 'url?limit=10000&name=./images/[hash].[ext]!img&optimizationLevel=7',
+
+  header: 2.31M -> 1.12M
+
+
+```
+
+<br />
+<br />
+
+```
+  loader: 'url?limit=10000&name=./images/[hash].[ext]!img?minimize&optimizationLevel=7',
+
+  header: 2.31M -> 1.12M
+
+
+```
+
+<br />
+<br />
+
+```
+  loader: 'url?limit=10000&name=./images/[hash].[ext]!img?minimize&optimizationLevel=5',
+
+  header: 2.31M -> 1.12M
+
+
+```
+
+
 首先, 透过loader file-loader url-loader 是不能压缩图片的.他们能做的是 把小于特定值的图片base64化.而没有做压缩图片的事情.
 
 那么,压缩图片的 事情谁来做呢? 它们
