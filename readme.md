@@ -5,6 +5,13 @@
 
 ## bitch webpack-test-6 Log July 22
 
+
+### Todo
+
+- 怎么把html模板的内容不要打包. UglifyJsPlugin怎么排除
+- 还可以进一步减小`bundle.js` 吗?
+
+
 ```
 bundle 210K->203k
 
