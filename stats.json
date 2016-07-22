@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "1.13.1",
-  "hash": "f9331c7171ae11400baf",
-  "time": 1636,
+  "hash": "ee1d32a14391572c61de",
+  "time": 1625,
   "publicPath": "",
   "assetsByChunkName": {
     "bundle": "bundle.js"
@@ -80,8 +80,8 @@
       "emitted": true
     },
     {
-      "name": "./images/a6f11657e1256afa422bb29a44dc5281.jpg",
-      "size": 2425963,
+      "name": "./images/ce651a67939d1faa816ee273aac8f55d.jpg",
+      "size": 326018,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -147,7 +147,7 @@
       "files": [
         "bundle.js"
       ],
-      "hash": "5b2ac85ee08395c85a6e",
+      "hash": "32c5eed3a600a87d842c",
       "parents": [],
       "modules": [
         {
@@ -167,7 +167,7 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 7,
+            "factory": 5,
             "building": 14
           },
           "failed": false,
@@ -193,8 +193,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 410,
-            "building": 2
+            "factory": 408,
+            "building": 3
           },
           "failed": false,
           "errors": 0,
@@ -230,7 +230,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\style-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\style.css",
           "profile": {
             "factory": 0,
-            "building": 498
+            "building": 496
           },
           "failed": false,
           "errors": 0,
@@ -265,8 +265,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\style.css",
           "profile": {
-            "factory": 101,
-            "building": 69
+            "factory": 109,
+            "building": 65
           },
           "failed": false,
           "errors": 0,
@@ -310,8 +310,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\style-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\style.css",
           "profile": {
-            "factory": 445,
-            "building": 159
+            "factory": 444,
+            "building": 161
           },
           "failed": false,
           "errors": 0,
@@ -355,9 +355,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 846,
-            "building": 1,
-            "dependencies": 11
+            "factory": 843,
+            "building": 0,
+            "dependencies": 12
           },
           "failed": false,
           "errors": 0,
@@ -392,9 +392,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\style-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
-            "factory": 0,
-            "building": 142,
-            "dependencies": 23
+            "factory": 1,
+            "building": 144,
+            "dependencies": 29
           },
           "failed": false,
           "errors": 0,
@@ -427,12 +427,12 @@
             0
           ],
           "assets": [
-            "./images/a6f11657e1256afa422bb29a44dc5281.jpg"
+            "./images/ce651a67939d1faa816ee273aac8f55d.jpg"
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 38,
-            "building": 211
+            "building": 203
           },
           "failed": false,
           "errors": 0,
@@ -448,7 +448,7 @@
               "loc": "6:1650-1683"
             }
           ],
-          "source": "module.exports = __webpack_public_path__ + \"./images/a6f11657e1256afa422bb29a44dc5281.jpg\";"
+          "source": "module.exports = __webpack_public_path__ + \"./images/ce651a67939d1faa816ee273aac8f55d.jpg\";"
         },
         {
           "id": 8,
@@ -470,7 +470,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 38,
-            "building": 205
+            "building": 204
           },
           "failed": false,
           "errors": 0,
@@ -508,7 +508,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 38,
-            "building": 207
+            "building": 205
           },
           "failed": false,
           "errors": 0,
@@ -581,8 +581,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
-            "factory": 39,
-            "building": 205
+            "factory": 38,
+            "building": 204
           },
           "failed": false,
           "errors": 0,
@@ -617,8 +617,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
-            "factory": 39,
-            "building": 205
+            "factory": 38,
+            "building": 207
           },
           "failed": false,
           "errors": 0,
@@ -655,7 +655,7 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
-            "factory": 39,
+            "factory": 38,
             "building": 206
           },
           "failed": false,
@@ -691,8 +691,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
-            "factory": 39,
-            "building": 206
+            "factory": 38,
+            "building": 204
           },
           "failed": false,
           "errors": 0,
@@ -728,7 +728,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 39,
-            "building": 206
+            "building": 204
           },
           "failed": false,
           "errors": 0,
@@ -764,7 +764,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 39,
-            "building": 206
+            "building": 205
           },
           "failed": false,
           "errors": 0,
@@ -800,7 +800,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 39,
-            "building": 207
+            "building": 205
           },
           "failed": false,
           "errors": 0,
@@ -836,7 +836,7 @@
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
           "profile": {
             "factory": 39,
-            "building": 207
+            "building": 205
           },
           "failed": false,
           "errors": 0,
@@ -871,8 +871,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 249,
-            "building": 44
+            "factory": 252,
+            "building": 43
           },
           "failed": false,
           "errors": 0,
@@ -907,8 +907,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\js\\mousewheel.js",
           "profile": {
-            "factory": 733,
-            "building": 205
+            "factory": 730,
+            "building": 203
           },
           "failed": false,
           "errors": 0,
@@ -965,7 +965,7 @@
               "module": "./src/js/reg_com.js",
               "moduleName": "./src/js/reg_com.js",
               "type": "cjs require",
-              "userRequest": "$",
+              "userRequest": "jQuery",
               "loc": "1:0-17"
             },
             {
@@ -974,15 +974,6 @@
               "module": "./src/js/reg_com.js",
               "moduleName": "./src/js/reg_com.js",
               "type": "cjs require",
-              "userRequest": "jQuery",
-              "loc": "1:0-17"
-            },
-            {
-              "moduleId": 27,
-              "moduleIdentifier": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\common\\base_market.js",
-              "module": "./src/common/base_market.js",
-              "moduleName": "./src/common/base_market.js",
-              "type": "cjs require",
               "userRequest": "$",
               "loc": "1:0-17"
             },
@@ -993,6 +984,15 @@
               "moduleName": "./src/common/base_market.js",
               "type": "cjs require",
               "userRequest": "jQuery",
+              "loc": "1:0-17"
+            },
+            {
+              "moduleId": 27,
+              "moduleIdentifier": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\common\\base_market.js",
+              "module": "./src/common/base_market.js",
+              "moduleName": "./src/common/base_market.js",
+              "type": "cjs require",
+              "userRequest": "$",
               "loc": "1:0-17"
             },
             {
@@ -1033,9 +1033,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 249,
-            "building": 47,
-            "dependencies": 730
+            "factory": 252,
+            "building": 46,
+            "dependencies": 727
           },
           "failed": false,
           "errors": 0,
@@ -1070,9 +1070,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 91,
-            "dependencies": 685
+            "factory": 252,
+            "building": 87,
+            "dependencies": 686
           },
           "failed": false,
           "errors": 0,
@@ -1107,9 +1107,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 111,
-            "dependencies": 665
+            "factory": 252,
+            "building": 105,
+            "dependencies": 668
           },
           "failed": false,
           "errors": 0,
@@ -1144,9 +1144,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 116,
-            "dependencies": 660
+            "factory": 252,
+            "building": 134,
+            "dependencies": 640
           },
           "failed": false,
           "errors": 0,
@@ -1181,9 +1181,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 120,
-            "dependencies": 656
+            "factory": 252,
+            "building": 109,
+            "dependencies": 664
           },
           "failed": false,
           "errors": 0,
@@ -1218,8 +1218,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 160
+            "factory": 253,
+            "building": 149
           },
           "failed": false,
           "errors": 0,
@@ -1254,9 +1254,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 144,
-            "dependencies": 633
+            "factory": 253,
+            "building": 127,
+            "dependencies": 645
           },
           "failed": false,
           "errors": 0,
@@ -1291,9 +1291,9 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
           "profile": {
-            "factory": 250,
-            "building": 131,
-            "dependencies": 646
+            "factory": 253,
+            "building": 155,
+            "dependencies": 618
           },
           "failed": false,
           "errors": 0,
@@ -1344,7 +1344,7 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 7,
+        "factory": 5,
         "building": 14
       },
       "failed": false,
@@ -1370,8 +1370,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 410,
-        "building": 2
+        "factory": 408,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -1407,7 +1407,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\style-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\style.css",
       "profile": {
         "factory": 0,
-        "building": 498
+        "building": 496
       },
       "failed": false,
       "errors": 0,
@@ -1442,8 +1442,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\style.css",
       "profile": {
-        "factory": 101,
-        "building": 69
+        "factory": 109,
+        "building": 65
       },
       "failed": false,
       "errors": 0,
@@ -1487,8 +1487,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\style-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\style.css",
       "profile": {
-        "factory": 445,
-        "building": 159
+        "factory": 444,
+        "building": 161
       },
       "failed": false,
       "errors": 0,
@@ -1532,9 +1532,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 846,
-        "building": 1,
-        "dependencies": 11
+        "factory": 843,
+        "building": 0,
+        "dependencies": 12
       },
       "failed": false,
       "errors": 0,
@@ -1569,9 +1569,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\style-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
-        "factory": 0,
-        "building": 142,
-        "dependencies": 23
+        "factory": 1,
+        "building": 144,
+        "dependencies": 29
       },
       "failed": false,
       "errors": 0,
@@ -1604,12 +1604,12 @@
         0
       ],
       "assets": [
-        "./images/a6f11657e1256afa422bb29a44dc5281.jpg"
+        "./images/ce651a67939d1faa816ee273aac8f55d.jpg"
       ],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 38,
-        "building": 211
+        "building": 203
       },
       "failed": false,
       "errors": 0,
@@ -1625,7 +1625,7 @@
           "loc": "6:1650-1683"
         }
       ],
-      "source": "module.exports = __webpack_public_path__ + \"./images/a6f11657e1256afa422bb29a44dc5281.jpg\";"
+      "source": "module.exports = __webpack_public_path__ + \"./images/ce651a67939d1faa816ee273aac8f55d.jpg\";"
     },
     {
       "id": 8,
@@ -1647,7 +1647,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 38,
-        "building": 205
+        "building": 204
       },
       "failed": false,
       "errors": 0,
@@ -1685,7 +1685,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 38,
-        "building": 207
+        "building": 205
       },
       "failed": false,
       "errors": 0,
@@ -1758,8 +1758,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
-        "factory": 39,
-        "building": 205
+        "factory": 38,
+        "building": 204
       },
       "failed": false,
       "errors": 0,
@@ -1794,8 +1794,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
-        "factory": 39,
-        "building": 205
+        "factory": 38,
+        "building": 207
       },
       "failed": false,
       "errors": 0,
@@ -1832,7 +1832,7 @@
       ],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
-        "factory": 39,
+        "factory": 38,
         "building": 206
       },
       "failed": false,
@@ -1868,8 +1868,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
-        "factory": 39,
-        "building": 206
+        "factory": 38,
+        "building": 204
       },
       "failed": false,
       "errors": 0,
@@ -1905,7 +1905,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 39,
-        "building": 206
+        "building": 204
       },
       "failed": false,
       "errors": 0,
@@ -1941,7 +1941,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 39,
-        "building": 206
+        "building": 205
       },
       "failed": false,
       "errors": 0,
@@ -1977,7 +1977,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 39,
-        "building": 207
+        "building": 205
       },
       "failed": false,
       "errors": 0,
@@ -2013,7 +2013,7 @@
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\css-loader\\index.js?sourceMap!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\css\\main.css",
       "profile": {
         "factory": 39,
-        "building": 207
+        "building": 205
       },
       "failed": false,
       "errors": 0,
@@ -2048,8 +2048,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 249,
-        "building": 44
+        "factory": 252,
+        "building": 43
       },
       "failed": false,
       "errors": 0,
@@ -2084,8 +2084,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\js\\mousewheel.js",
       "profile": {
-        "factory": 733,
-        "building": 205
+        "factory": 730,
+        "building": 203
       },
       "failed": false,
       "errors": 0,
@@ -2142,7 +2142,7 @@
           "module": "./src/js/reg_com.js",
           "moduleName": "./src/js/reg_com.js",
           "type": "cjs require",
-          "userRequest": "$",
+          "userRequest": "jQuery",
           "loc": "1:0-17"
         },
         {
@@ -2151,15 +2151,6 @@
           "module": "./src/js/reg_com.js",
           "moduleName": "./src/js/reg_com.js",
           "type": "cjs require",
-          "userRequest": "jQuery",
-          "loc": "1:0-17"
-        },
-        {
-          "moduleId": 27,
-          "moduleIdentifier": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\common\\base_market.js",
-          "module": "./src/common/base_market.js",
-          "moduleName": "./src/common/base_market.js",
-          "type": "cjs require",
           "userRequest": "$",
           "loc": "1:0-17"
         },
@@ -2170,6 +2161,15 @@
           "moduleName": "./src/common/base_market.js",
           "type": "cjs require",
           "userRequest": "jQuery",
+          "loc": "1:0-17"
+        },
+        {
+          "moduleId": 27,
+          "moduleIdentifier": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\common\\base_market.js",
+          "module": "./src/common/base_market.js",
+          "moduleName": "./src/common/base_market.js",
+          "type": "cjs require",
+          "userRequest": "$",
           "loc": "1:0-17"
         },
         {
@@ -2210,9 +2210,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 249,
-        "building": 47,
-        "dependencies": 730
+        "factory": 252,
+        "building": 46,
+        "dependencies": 727
       },
       "failed": false,
       "errors": 0,
@@ -2247,9 +2247,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 91,
-        "dependencies": 685
+        "factory": 252,
+        "building": 87,
+        "dependencies": 686
       },
       "failed": false,
       "errors": 0,
@@ -2284,9 +2284,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 111,
-        "dependencies": 665
+        "factory": 252,
+        "building": 105,
+        "dependencies": 668
       },
       "failed": false,
       "errors": 0,
@@ -2321,9 +2321,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 116,
-        "dependencies": 660
+        "factory": 252,
+        "building": 134,
+        "dependencies": 640
       },
       "failed": false,
       "errors": 0,
@@ -2358,9 +2358,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 120,
-        "dependencies": 656
+        "factory": 252,
+        "building": 109,
+        "dependencies": 664
       },
       "failed": false,
       "errors": 0,
@@ -2395,8 +2395,8 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 160
+        "factory": 253,
+        "building": 149
       },
       "failed": false,
       "errors": 0,
@@ -2431,9 +2431,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 144,
-        "dependencies": 633
+        "factory": 253,
+        "building": 127,
+        "dependencies": 645
       },
       "failed": false,
       "errors": 0,
@@ -2468,9 +2468,9 @@
       "assets": [],
       "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\main.js",
       "profile": {
-        "factory": 250,
-        "building": 131,
-        "dependencies": 646
+        "factory": 253,
+        "building": 155,
+        "dependencies": 618
       },
       "failed": false,
       "errors": 0,
@@ -2608,7 +2608,7 @@
               "assets": [],
               "issuer": null,
               "profile": {
-                "factory": 36,
+                "factory": 35,
                 "building": 271
               },
               "failed": false,
@@ -2634,7 +2634,7 @@
               "assets": [],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 714,
+                "factory": 711,
                 "building": 37
               },
               "failed": false,
@@ -2670,7 +2670,7 @@
               "assets": [],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 729,
+                "factory": 726,
                 "building": 22
               },
               "failed": false,
@@ -2706,7 +2706,7 @@
               "assets": [],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 729,
+                "factory": 726,
                 "building": 22
               },
               "failed": false,
@@ -2751,7 +2751,7 @@
               "assets": [],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 729,
+                "factory": 726,
                 "building": 22
               },
               "failed": false,
@@ -2798,8 +2798,8 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 730,
-                "building": 25
+                "factory": 726,
+                "building": 26
               },
               "failed": false,
               "errors": 0,
@@ -2836,7 +2836,7 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 730,
+                "factory": 727,
                 "building": 24
               },
               "failed": false,
@@ -2874,7 +2874,7 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 730,
+                "factory": 727,
                 "building": 24
               },
               "failed": false,
@@ -2912,7 +2912,7 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 730,
+                "factory": 727,
                 "building": 25
               },
               "failed": false,
@@ -2950,8 +2950,8 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 24
+                "factory": 727,
+                "building": 30
               },
               "failed": false,
               "errors": 0,
@@ -2988,7 +2988,7 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
+                "factory": 727,
                 "building": 27
               },
               "failed": false,
@@ -3024,8 +3024,8 @@
               "assets": [],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 25
+                "factory": 727,
+                "building": 26
               },
               "failed": false,
               "errors": 0,
@@ -3062,8 +3062,8 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 26
+                "factory": 727,
+                "building": 27
               },
               "failed": false,
               "errors": 0,
@@ -3100,8 +3100,8 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 27
+                "factory": 727,
+                "building": 28
               },
               "failed": false,
               "errors": 0,
@@ -3138,8 +3138,8 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 28
+                "factory": 728,
+                "building": 27
               },
               "failed": false,
               "errors": 0,
@@ -3174,8 +3174,8 @@
               "assets": [],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 28
+                "factory": 728,
+                "building": 29
               },
               "failed": false,
               "errors": 0,
@@ -3212,8 +3212,8 @@
               ],
               "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
               "profile": {
-                "factory": 731,
-                "building": 29
+                "factory": 728,
+                "building": 28
               },
               "failed": false,
               "errors": 0,
@@ -3263,7 +3263,7 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 36,
+            "factory": 35,
             "building": 271
           },
           "failed": false,
@@ -3289,7 +3289,7 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 714,
+            "factory": 711,
             "building": 37
           },
           "failed": false,
@@ -3325,7 +3325,7 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 729,
+            "factory": 726,
             "building": 22
           },
           "failed": false,
@@ -3361,7 +3361,7 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 729,
+            "factory": 726,
             "building": 22
           },
           "failed": false,
@@ -3406,7 +3406,7 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 729,
+            "factory": 726,
             "building": 22
           },
           "failed": false,
@@ -3453,8 +3453,8 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 730,
-            "building": 25
+            "factory": 726,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -3491,7 +3491,7 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 730,
+            "factory": 727,
             "building": 24
           },
           "failed": false,
@@ -3529,7 +3529,7 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 730,
+            "factory": 727,
             "building": 24
           },
           "failed": false,
@@ -3567,7 +3567,7 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 730,
+            "factory": 727,
             "building": 25
           },
           "failed": false,
@@ -3605,8 +3605,8 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 24
+            "factory": 727,
+            "building": 30
           },
           "failed": false,
           "errors": 0,
@@ -3643,7 +3643,7 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
+            "factory": 727,
             "building": 27
           },
           "failed": false,
@@ -3679,8 +3679,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 25
+            "factory": 727,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -3717,8 +3717,8 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 26
+            "factory": 727,
+            "building": 27
           },
           "failed": false,
           "errors": 0,
@@ -3755,8 +3755,8 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 27
+            "factory": 727,
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -3793,8 +3793,8 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 28
+            "factory": 728,
+            "building": 27
           },
           "failed": false,
           "errors": 0,
@@ -3829,8 +3829,8 @@
           "assets": [],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 28
+            "factory": 728,
+            "building": 29
           },
           "failed": false,
           "errors": 0,
@@ -3867,8 +3867,8 @@
           ],
           "issuer": "C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\node_modules\\html-loader\\index.js!C:\\Users\\wanglin5.TECH\\Desktop\\gogs-repos\\rav4Crolla\\src\\index.html",
           "profile": {
-            "factory": 731,
-            "building": 29
+            "factory": 728,
+            "building": 28
           },
           "failed": false,
           "errors": 0,

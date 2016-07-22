@@ -1,4 +1,4 @@
-require('./src/css/style.css');
+// require('./src/css/style.css');
 require('./src/css/main.css');
 
 
@@ -13,8 +13,8 @@ require('./src/js/jquery.SuperSlide.js');
 var commonData=require("./src/js/common.js");
 commonData();
 
-var regCom=require("./src/js/reg_com.js");
-regCom();
+// var regCom=require("./src/js/reg_com.js");
+// regCom();
 
 var JSonData=require('./src/common/dealer.js');
 var baseMarket=require('./src/common/base_market.js');

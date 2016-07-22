@@ -5,6 +5,15 @@
 
 ## bitch webpack-test-6 Log July 22
 
+```
+bundle 210K->203k
+
+报名表单走CDN,单独引用.
+
+```
+
+<br />
+<br />
 
 Jquery 走CDN , 将jquery 提出来, 然后 webpack
 

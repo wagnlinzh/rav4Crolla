@@ -28,7 +28,7 @@ module.exports = {
 
   //jquery 单独引用
    externals: {
-        "jquery": "jQuery"
+        "jquery": "jQuery",
     },
 
   //引入模块
