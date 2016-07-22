@@ -14,6 +14,8 @@ bundle.js
 362KB -> 210KB
 ```
 
+总大小 2.53MB
+
 <br />
 <br />
 <br />
