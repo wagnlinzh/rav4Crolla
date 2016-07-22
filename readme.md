@@ -3,6 +3,20 @@
 <br />
 <br />
 
+## bitch webpack-test-6 Log July 22
+
+Jquery 走CDN , 将jquery 提出来, 然后 webpack
+
+```
+bundle.js 
+
+362KB -> 210KB
+```
+
+<br />
+<br />
+<br />
+
 ## Log July 21 bitch..branch. webpack-test-6
 <br />
 <br />

@@ -16,6 +16,7 @@ module.exports = {
   entry: {
     bundle: './main.js', //这个里面主要放的是各种css 等样式
   },
+  
 
   //出口
   output: {
@@ -25,10 +26,13 @@ module.exports = {
     // publicPath: "./dist/"
   },
 
+  //jquery 单独引用
+   externals: {
+        "jquery": "jQuery"
+    },
 
   //引入模块
   module: {
-
     loaders: [{
       test: /\.css$/,
       loaders: ['style', 'css'],
