@@ -6,11 +6,15 @@
 ## bitch webpack-test-6 Log July 22
 
 
+## 关于分割点,
+
+其实是受到冬哥的启发,在看那个阿迪的广告的那个页面时,我们分析了那么大一个build.js 文件.而且很好奇,为什么这个文件能够在没有黑屏之前就把页面加载出来
+
 ### Todo
 
 - 怎么把html模板的内容不要打包. UglifyJsPlugin怎么排除
 - 还可以进一步减小`bundle.js` 吗?
-
+- 分割点.
 
 ```
 bundle 210K->203k
