@@ -76,10 +76,19 @@ module.exports = {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
           'url?limit=41960&name=./images/[hash].[ext]',
-          'img-loader?minimize'
+          'img-loader?minimize&optimizationLevel=7&progressive=true'
           ],
         exclude: 'node_modules'
       },
+
+      //  {
+      //   test: /\.(jpe?g|png|gif|svg)$/i,
+      //   loaders: [
+      //     'url?limit=41960&name=./images/[hash].[ext]',
+      //     'image-webpack'
+      //     ],
+      //   exclude: 'node_modules'
+      // },
 
       {
         test: /\.html$/,
@@ -93,15 +102,20 @@ module.exports = {
 
  imagemin: {
     gifsicle: { interlaced: false },
+
     jpegtran: {
       progressive: true,
-      arithmetic: false
+      arithmetic: false,
+      optimizationLevel: 1
     },
-    optipng: { optimizationLevel: 5 },
+
+    optipng: { optimizationLevel: 7 },
+    
     pngquant: {
       floyd: 0.5,
       speed: 2
     },
+    
     svgo: {
       plugins: [
         { removeTitle: true },
@@ -110,6 +124,23 @@ module.exports = {
     }
   },
 
+
+// imageWebpackLoader: {
+//     pngquant:{
+//       quality: "65-90",
+//       speed: 4
+//     },
+//     svgo:{
+//       plugins: [
+//         {
+//           removeViewBox: false
+//         },
+//         {
+//           removeEmptyAttrs: false
+//         }
+//       ]
+//     }
+//   },
   plugins: [
 
     new uglifyJsPlugin({
