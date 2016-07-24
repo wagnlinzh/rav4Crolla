@@ -150,11 +150,11 @@ module.exports = {
     }),
 
     //provide $, jQuery and window.jQuery to every script
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery",
-      "window.jQuery": "jquery"
-    }),
+    // new webpack.ProvidePlugin({
+    //   $: "jquery",
+    //   jQuery: "jquery",
+    //   "window.jQuery": "jquery"
+    // }),
 
 
     new HtmlwebpackPlugin({

@@ -16,6 +16,16 @@
 ```
 
 
+我尝试以下的全局的jquery注释掉,我以为会报错,居然...正确...了....
+
+```
+// new webpack.ProvidePlugin({
+    //   $: "jquery",
+    //   jQuery: "jquery",
+    //   "window.jQuery": "jquery"
+    // }),
+```
+
 
 
 <br />
