@@ -60,7 +60,6 @@ module.exports = {
       //   test: /\.(jpe?g|png|gif|svg)$/i,
       //   loader: 'url?limit=10000&name=./images/[hash].[ext]!img?minimize',
       //   exclude: 'node_modules'
-
       // },
 
       // {
